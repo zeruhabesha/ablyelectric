@@ -83,7 +83,7 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-red-400" />
                 <div>
-                  <div className="font-medium">+91 98765 43210</div>
+                  <div className="font-medium">+251 911 464023</div>
                   <div className="text-gray-400 text-sm">Sales & Support</div>
                 </div>
               </div>
@@ -97,19 +97,13 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-red-400" />
                 <div>
-                  <div className="font-medium">Mumbai, Maharashtra</div>
+                  <div className="font-medium">Addis Ababa, Ethiopia</div>
                   <div className="text-gray-400 text-sm">Head Office Location</div>
                 </div>
               </div>
             </div>
 
-            {/* Certifications */}
-            <div className="bg-gray-900 p-4 rounded-lg">
-              <h4 className="font-semibold mb-2">Certifications & Standards</h4>
-              <div className="text-sm text-gray-300">
-                ISO 9001:2015 • BIS Approved • CE Marked • Authorized Distributor
-              </div>
-            </div>
+          
           </div>
 
           {/* Products */}

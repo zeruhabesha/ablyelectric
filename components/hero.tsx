@@ -100,7 +100,7 @@ export default function Hero() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-black group"
+                className="border-white text-black hover:bg-white hover:text-black group"
               >
                 <Link href="/contact" className="flex items-center">
                   Request a Quote

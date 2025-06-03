@@ -109,7 +109,7 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-white text-red-600 hover:bg-gray-100 group">
                   <Phone className="mr-2 h-5 w-5" />
-                  <span>Call: +91 98765 43210</span>
+                  <span>Call: +251 911 464023</span>
                 </Button>
                 <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/20 group">
                   <MessageSquare className="mr-2 h-5 w-5" />

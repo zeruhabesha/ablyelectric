@@ -25,7 +25,7 @@ export default function EVChargersPage() {
       id: 1,
       name: "ABLY Fast DC Charger 60kW",
       category: "DC Fast Charging",
-      price: "₹4,50,000",
+      // price: "₹4,50,000",
       image: "/placeholder.svg?height=300&width=400",
       rating: 4.8,
       description: "Fast, efficient charging solutions for electric vehicles with Level 2 & DC fast charging options",
@@ -62,7 +62,7 @@ export default function EVChargersPage() {
       id: 2,
       name: "ABLY Smart AC Charger 22kW",
       category: "AC Charging",
-      price: "₹85,000",
+      // price: "₹85,000",
       image: "/placeholder.svg?height=300&width=400",
       rating: 4.6,
       description: "Smart AC charger perfect for residential and workplace charging with efficient power conversion",
@@ -99,7 +99,7 @@ export default function EVChargersPage() {
       id: 3,
       name: "ABLY Ultra Fast 150kW",
       category: "DC Fast Charging",
-      price: "₹8,50,000",
+      // price: "₹8,50,000",
       image: "/placeholder.svg?height=300&width=400",
       rating: 4.9,
       description: "Ultra-fast charging solution for high-traffic commercial locations",
@@ -136,7 +136,7 @@ export default function EVChargersPage() {
       id: 4,
       name: "ABLY Home Charger 7kW",
       category: "AC Charging",
-      price: "₹35,000",
+      // price: "₹35,000",
       image: "/placeholder.svg?height=300&width=400",
       rating: 4.5,
       description: "Compact home charging solution with smart features",
@@ -169,7 +169,7 @@ export default function EVChargersPage() {
       id: 5,
       name: "ABLY Portable Charger 3.5kW",
       category: "Portable",
-      price: "₹18,000",
+      // price: "₹18,000",
       image: "/placeholder.svg?height=300&width=400",
       rating: 4.3,
       description: "Portable charging solution for emergency and travel use",
@@ -202,7 +202,7 @@ export default function EVChargersPage() {
       id: 6,
       name: "ABLY Fleet Charger 50kW",
       category: "DC Fast Charging",
-      price: "₹3,75,000",
+      // price: "₹3,75,000",
       image: "/placeholder.svg?height=300&width=400",
       rating: 4.7,
       description: "Optimized for fleet operations with multiple vehicle support",
@@ -359,7 +359,7 @@ export default function EVChargersPage() {
                       <CardTitle className="text-lg">{charger.name}</CardTitle>
                       <CardDescription>{charger.description}</CardDescription>
                       <div className="flex items-center justify-between">
-                        <div className="text-2xl font-bold text-red-600">{charger.price}</div>
+                        {/* <div className="text-2xl font-bold text-red-600">{charger.price}</div> */}
                         <Badge variant="secondary">{charger.specifications.power}</Badge>
                       </div>
                     </CardHeader>
@@ -378,7 +378,7 @@ export default function EVChargersPage() {
                         className="w-full h-64 object-cover rounded-lg mb-4"
                       />
                       <div className="flex items-center justify-between mb-4">
-                        <div className="text-3xl font-bold text-red-600">{charger.price}</div>
+                        {/* <div className="text-3xl font-bold text-red-600">{charger.price}</div> */}
                         <div className="flex items-center space-x-1">
                           <Star className="h-4 w-4 text-yellow-500 fill-current" />
                           <span className="font-medium">{charger.rating}</span>
@@ -386,18 +386,18 @@ export default function EVChargersPage() {
                         </div>
                       </div>
                       <div className="space-y-3">
-                        <Button className="w-full bg-red-600 hover:bg-red-700">
+                        {/* <Button className="w-full bg-red-600 hover:bg-red-700">
                           <ShoppingCart className="mr-2 h-4 w-4" />
                           Request Quote
-                        </Button>
+                        </Button> */}
                         <Button variant="outline" className="w-full border-red-600 text-red-600 hover:bg-red-50">
                           <Phone className="mr-2 h-4 w-4" />
                           Call for Pricing
                         </Button>
-                        <Button variant="outline" className="w-full">
+                        {/* <Button variant="outline" className="w-full">
                           <Download className="mr-2 h-4 w-4" />
                           Download Datasheet
-                        </Button>
+                        </Button> */}
                       </div>
                     </div>
                     <div className="space-y-6">

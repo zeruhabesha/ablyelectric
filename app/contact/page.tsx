@@ -56,9 +56,9 @@ export default function ContactPage() {
       title: "Phone Support",
       subtitle: "Immediate assistance available",
       details: [
-        { label: "Sales & Inquiries", value: "+91 98765 43210", type: "primary" },
-        { label: "Technical Support", value: "+91 98765 43211", type: "secondary" },
-        { label: "Emergency Hotline", value: "+91 98765 43299", type: "emergency" },
+        { label: "Sales & Inquiries", value: "+251 911 464023", type: "primary" },
+        { label: "Technical Support", value: "+251 911 464023", type: "secondary" },
+        { label: "Emergency Hotline", value: "+251 911 464023", type: "emergency" },
       ],
       availability: "24/7 Emergency Support",
     },
@@ -80,7 +80,7 @@ export default function ContactPage() {
       details: [
         {
           label: "Head Office",
-          value: "123 Industrial Area, Sector 15\nMumbai, Maharashtra 400001\nIndia",
+          value: "Around Semien Hotel,\nDarule Tower, 8th Floor, Office No. 806\nAddis Ababa, Ethiopia",
           type: "address",
         },
       ],
@@ -308,7 +308,7 @@ export default function ContactPage() {
                     </Button>
 
                     <div className="text-center text-sm text-gray-500">
-                      <p>🚀 Need immediate assistance? Call us at +91 98765 43210</p>
+                      <p>🚀 Need immediate assistance? Call us at +251 911 464023</p>
                     </div>
                   </form>
                 </CardContent>
@@ -343,7 +343,7 @@ export default function ContactPage() {
                   <div className="space-y-4">
                     <Button className="w-full bg-white/20 hover:bg-white/30 text-white justify-start">
                       <Phone className="mr-3 h-5 w-5" />
-                      Call: +91 98765 43210
+                      Call: +251 911 464023 / +251 913 043477 / +251 912 286121
                     </Button>
                     <Button className="w-full bg-white/20 hover:bg-white/30 text-white justify-start">
                       <MessageCircle className="mr-3 h-5 w-5" />
@@ -410,18 +410,40 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-black mb-4">Visit Our Office</h2>
-            <p className="text-xl text-gray-600">Located in the heart of Mumbai's industrial district</p>
+            <p className="text-xl text-gray-600">Located in Around Semien Hotel, Darule Tower, 8th Floor, Office No. 806, Addis Ababa, Ethiopia</p>
           </div>
           <div className="max-w-4xl mx-auto">
             <Card className="overflow-hidden border-0 shadow-xl">
               <CardContent className="p-0">
-                <div className="bg-gray-200 h-64 lg:h-96 flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="h-16 w-16 text-red-600 mx-auto mb-4" />
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">ABLY ELECTRIC Head Office</h3>
-                    <p className="text-gray-600">123 Industrial Area, Sector 15</p>
-                    <p className="text-gray-600">Mumbai, Maharashtra 400001</p>
-                    <Button className="mt-4 bg-red-600 hover:bg-red-700">Get Directions</Button>
+                <div className="relative bg-gray-200 h-64 lg:h-96 flex items-center justify-center">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3791.9026704385424!2d38.782220290948075!3d8.999237103390112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b850921741007%3A0x4f00e48587b0714!2sDat%20Tower!5e1!3m2!1sen!2set!4v1748950416344!5m2!1sen!2set"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0, minHeight: "16rem" }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="ABLY ELECTRIC Head Office Location"
+                    className="absolute inset-0 w-full h-full"
+                  />
+                  <div className="relative z-10 bg-white/80 rounded-xl p-6 max-w-xs mx-auto shadow-lg flex flex-col items-center">
+                    <MapPin className="h-10 w-10 text-red-600 mb-2" />
+                    <h3 className="text-lg font-bold text-gray-900 mb-1">ABLY ELECTRIC Head Office</h3>
+                    <p className="text-gray-600 text-sm">Around Semien Hotel, Darule Tower, 8th Floor, Office No. 806</p>
+                    <p className="text-gray-600 text-sm mb-2">Addis Ababa, Ethiopia</p>
+                    <Button
+                      className="mt-2 bg-red-600 hover:bg-red-700"
+                      asChild
+                    >
+                      <a
+                        href="https://maps.app.goo.gl/PYCpM9FFxdsBD3Wo9"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Get Directions
+                      </a>
+                    </Button>
                   </div>
                 </div>
               </CardContent>

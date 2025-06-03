@@ -43,7 +43,7 @@ export default function Header() {
             <div className="flex items-center space-x-4 lg:space-x-6">
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span className="hidden sm:inline">+91 98765 43210</span>
+                <span className="hidden sm:inline">+251 911 464023</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
@@ -51,7 +51,7 @@ export default function Header() {
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span className="hidden lg:inline">Mumbai, Maharashtra</span>
+                <span className="hidden lg:inline">Addis Ababa, Ethiopia</span>
               </div>
             </div>
             <div className="text-sm hidden lg:block">

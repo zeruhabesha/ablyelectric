@@ -139,13 +139,13 @@ export default function InstallationServicesPage() {
   const servicePackages = [
     {
       name: "Basic Installation",
-      price: "₹25,000",
+      // price: "₹25,000",
       duration: "1-2 days",
       features: ["Equipment installation", "Basic testing", "User manual", "3 months warranty", "Phone support"],
     },
     {
       name: "Professional Installation",
-      price: "₹45,000",
+      // price: "₹45,000",
       duration: "2-3 days",
       features: [
         "Complete installation",
@@ -159,7 +159,7 @@ export default function InstallationServicesPage() {
     },
     {
       name: "Enterprise Installation",
-      price: "₹75,000",
+      // price: "₹75,000",
       duration: "3-5 days",
       features: [
         "Full system integration",
@@ -409,7 +409,7 @@ export default function InstallationServicesPage() {
                 )}
                 <CardHeader className="text-center">
                   <CardTitle className="text-xl">{pkg.name}</CardTitle>
-                  <div className="text-3xl font-bold text-red-600">{pkg.price}</div>
+                  {/* <div className="text-3xl font-bold text-red-600">{pkg.price}</div> */}
                   <CardDescription>Starting from • {pkg.duration}</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -445,7 +445,7 @@ export default function InstallationServicesPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
               <Phone className="mr-2 h-5 w-5" />
-              Call Now: +91 98765 43210
+              Call Now: +251 911 464023
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black">
               <Calendar className="mr-2 h-5 w-5" />

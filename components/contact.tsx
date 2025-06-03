@@ -30,11 +30,11 @@ export default function Contact() {
                 <div className="space-y-3">
                   <div>
                     <div className="font-semibold text-gray-900">Sales & Inquiries</div>
-                    <div className="text-blue-600 font-medium">+91 98765 43210</div>
+                    <div className="text-blue-600 font-medium">+251 911 464023</div>
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Technical Support</div>
-                    <div className="text-blue-600 font-medium">+91 98765 43211</div>
+                    <div className="text-blue-600 font-medium">+251 911 464023</div>
                   </div>
                   <div className="bg-green-50 p-3 rounded-lg">
                     <div className="flex items-center space-x-2 text-green-700">
@@ -83,11 +83,11 @@ export default function Contact() {
                   <div>
                     <div className="font-semibold text-gray-900">Head Office</div>
                     <div className="text-gray-600">
-                      123 Industrial Area, Sector 15
+                      Around Semien Hotel
                       <br />
-                      Mumbai, Maharashtra 400001
+                       Darule Tower, 8th Floor, Office No. 806
                       <br />
-                      India
+                       Addis Ababa, Ethiopia
                     </div>
                   </div>
                   <div className="flex items-center space-x-2 text-purple-600">
@@ -187,7 +187,7 @@ export default function Contact() {
                 </Button>
 
                 <div className="text-center text-sm text-gray-500">
-                  <p>🚀 Need immediate assistance? Call us at +91 98765 43210</p>
+                  <p>🚀 Need immediate assistance? Call us at +251 911 464023</p>
                 </div>
               </CardContent>
             </Card>
@@ -204,7 +204,7 @@ export default function Contact() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-red-600 hover:bg-gray-100">
                 <Phone className="mr-2 h-5 w-5" />
-                Emergency Hotline: +91 98765 43299
+                Emergency Hotline: +251 911 464023
               </Button>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-600">
                 <MessageCircle className="mr-2 h-5 w-5" />
