@@ -48,7 +48,7 @@ export default function EVChargerInstallationPage() {
             details: {
                 duration: "2-4 days",
                 warranty: "2 years",
-                certification: "ISO Certified",
+                // certification: "ISO Certified",
                 features: [
                     "Multiple charger setup",
                     "Load management system",

@@ -70,9 +70,9 @@ export default function Hero() {
 
             {/* Trust Badges */}
             <div className="flex flex-wrap gap-3">
-              <Badge className="bg-red-600/20 text-red-400 border border-red-500/30 py-1 px-3">
+              {/* <Badge className="bg-red-600/20 text-red-400 border border-red-500/30 py-1 px-3">
                 <Award className="h-4 w-4 mr-1" /> ISO 9001:2015 Certified
-              </Badge>
+              </Badge> */}
               <Badge className="bg-red-600/20 text-red-400 border border-red-500/30 py-1 px-3">
                 <Shield className="h-4 w-4 mr-1" /> 2-Year Warranty
               </Badge>

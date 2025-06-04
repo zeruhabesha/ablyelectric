@@ -86,7 +86,7 @@ export default function InstrumentationProcessControlPage() {
             details: {
                 duration: "2-4 days",
                 warranty: "1 year",
-                certification: "ISO Certified",
+                // certification: "ISO Certified",
                 features: [
                     "Multi-channel data loggers",
                     "Real-time monitoring",

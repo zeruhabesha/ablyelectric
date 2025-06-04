@@ -48,7 +48,7 @@ export default function InstallationServicesPage() {
       details: {
         duration: "1-3 days",
         warranty: "3 years",
-        certification: "ISO Certified",
+        // certification: "ISO Certified",
         features: [
           "Battery bank configuration",
           "Automatic transfer switch",

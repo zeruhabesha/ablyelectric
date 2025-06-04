@@ -48,7 +48,7 @@ export default function ElectricalBoardMaintenancePage() {
             details: {
                 duration: "2-3 hours",
                 warranty: "Service guarantee",
-                certification: "ISO Certified",
+                // certification: "ISO Certified",
                 features: [
                     "Removal of dust and contaminants",
                     "Contact cleaning",

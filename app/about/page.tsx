@@ -30,7 +30,7 @@ export default function AboutPage() {
 
   const milestones = [
     {
-      year: "2009",
+      year: "2007",
       title: "Company Founded",
       description: "Started as a small electrical components distributor with a vision to transform the industry",
       icon: <Building className="h-6 w-6" />,
@@ -52,12 +52,6 @@ export default function AboutPage() {
       title: "Training Center",
       description: "Opened state-of-the-art industrial training facility for skill development",
       icon: <Users className="h-6 w-6" />,
-    },
-    {
-      year: "2021",
-      title: "ISO Certification",
-      description: "Achieved ISO 9001:2015 quality certification, reinforcing our commitment to excellence",
-      icon: <Shield className="h-6 w-6" />,
     },
     {
       year: "2024",
@@ -146,12 +140,10 @@ export default function AboutPage() {
   ]
 
   const certifications = [
-    { name: "ISO 9001:2015 Quality Management", icon: <Award className="h-5 w-5" />, year: "2021" },
     { name: "BIS Approved Products", icon: <Shield className="h-5 w-5" />, year: "2020" },
     { name: "CE Marked Equipment", icon: <CheckCircle className="h-5 w-5" />, year: "2019" },
     { name: "Authorized Distributor Certificates", icon: <Globe className="h-5 w-5" />, year: "2018" },
     { name: "Electrical Safety Compliance", icon: <Zap className="h-5 w-5" />, year: "2022" },
-    { name: "Environmental Management ISO 14001", icon: <Target className="h-5 w-5" />, year: "2023" },
   ]
 
   const stats = [
@@ -232,7 +224,6 @@ export default function AboutPage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Badge className="bg-red-600/20 text-red-400 border border-red-500/30 px-4 py-2">Trusted Partner</Badge>
-              <Badge className="bg-red-600/20 text-red-400 border border-red-500/30 px-4 py-2">ISO Certified</Badge>
               <Badge className="bg-red-600/20 text-red-400 border border-red-500/30 px-4 py-2">500+ Projects</Badge>
               <Badge className="bg-red-600/20 text-red-400 border border-red-500/30 px-4 py-2">24/7 Support</Badge>
             </div>
@@ -297,7 +288,7 @@ export default function AboutPage() {
                       <div className="w-20 h-1 bg-red-600 mb-6 rounded-full"></div>
                       <div className="space-y-4 text-gray-700 leading-relaxed">
                         <p>
-                          Founded in 2009, ABLY ELECTRIC began as a vision to bridge the gap between cutting-edge
+                          Founded in 2007, ABLY ELECTRIC began as a vision to bridge the gap between cutting-edge
                           technology and practical industrial applications. What started as a small electrical
                           components distributor has evolved into a comprehensive solution provider for homes,
                           businesses, and industries across Ethiopia.
