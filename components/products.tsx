@@ -159,7 +159,7 @@ export default function Products() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=300&width=400"
+                  src="/ev.jpg?height=300&width=400"
                   alt="ABLY Fast DC Charger"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -177,7 +177,7 @@ export default function Products() {
                   Fast, efficient charging solutions for electric vehicles with Level 2 & DC fast charging options
                 </p>
                 <div className="flex justify-between items-center">
-                  <span className="text-lg font-bold text-red-600">₹4,50,000</span>
+                  {/* <span className="text-lg font-bold text-red-600">₹4,50,000</span> */}
                   <Button size="sm" variant="outline" className="border-red-600 text-red-600 hover:bg-red-50">
                     Details
                   </Button>
@@ -189,7 +189,7 @@ export default function Products() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=300&width=400"
+                  src="/ups.webp?height=300&width=400"
                   alt="ABLY UPS System"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -207,7 +207,7 @@ export default function Products() {
                   Reliable power backup solution for industrial applications with advanced monitoring
                 </p>
                 <div className="flex justify-between items-center">
-                  <span className="text-lg font-bold text-red-600">₹2,25,000</span>
+                  {/* <span className="text-lg font-bold text-red-600">₹2,25,000</span> */}
                   <Button size="sm" variant="outline" className="border-red-600 text-red-600 hover:bg-red-50">
                     Details
                   </Button>
@@ -219,7 +219,7 @@ export default function Products() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=300&width=400"
+                  src="/traning.jpg?height=300&width=400"
                   alt="ABLY Electrical Trainer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -237,7 +237,7 @@ export default function Products() {
                   Comprehensive training system for electrical engineering education with practical experiments
                 </p>
                 <div className="flex justify-between items-center">
-                  <span className="text-lg font-bold text-red-600">₹1,75,000</span>
+                  {/* <span className="text-lg font-bold text-red-600">₹1,75,000</span> */}
                   <Button size="sm" variant="outline" className="border-red-600 text-red-600 hover:bg-red-50">
                     Details
                   </Button>

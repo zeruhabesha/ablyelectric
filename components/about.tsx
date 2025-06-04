@@ -45,20 +45,20 @@ export default function About() {
   const testimonials = [
     {
       text: "ABLY ELECTRIC provided exceptional service for our industrial automation needs. Their team's expertise and attention to detail ensured our systems run efficiently.",
-      author: "Rajesh Mehta",
-      position: "Operations Director, Tata Steel",
+      author: "Abebe Kebede",
+      position: "Operations Director, Ethio Steel",
       rating: 5,
     },
     {
       text: "The EV charging solutions from ABLY have transformed our commercial property. Installation was seamless and the ongoing support is outstanding.",
-      author: "Priya Sharma",
-      position: "Facility Manager, Tech Park Bangalore",
+      author: "Fatuma Mohammed",
+      position: "Facility Manager, Kazanchis Complex",
       rating: 5,
     },
     {
       text: "As an educational institution, we rely on ABLY's training equipment to prepare our students for industry. The quality and relevance of their products is unmatched.",
-      author: "Dr. Anand Kumar",
-      position: "Dean, Institute of Engineering",
+      author: "Dr. Lemma Tesfaye",
+      position: "Dean, Addis Ababa Institute of Technology",
       rating: 4,
     },
   ]
@@ -124,35 +124,33 @@ export default function About() {
             </p>
             <div className="grid grid-cols-2 gap-3 mb-6">
               {expertise.map((skill, index) => (
-                <div
-                  key={index}
-                  className="flex items-center p-2 bg-red-50 rounded-lg border border-red-100 hover:bg-red-100 transition-colors"
-                >
-                  <CheckCircle className="h-4 w-4 text-red-600 mr-2" />
-                  <span className="text-sm font-medium">{skill}</span>
-                </div>
+              <div
+                key={index}
+                className="flex items-center p-2 bg-red-50 rounded-lg border border-red-100 hover:bg-red-100 transition-colors"
+              >
+                <CheckCircle className="h-4 w-4 text-red-600 mr-2" />
+                <span className="text-sm font-medium">{skill}</span>
+              </div>
               ))}
             </div>
             <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-6 rounded-lg">
-              <h4 className="font-bold text-lg mb-2">Industry Certifications</h4>
               <p className="text-red-100 text-sm">
-                ISO 9001:2015 Certified • BIS Approved Products • CE Marked Equipment • Authorized Distributor for
-                Leading Brands
+              We focus on providing top quality Electrical and Mechanical solutions.
               </p>
             </div>
+            </div>
           </div>
-        </div>
 
-        {/* Values */}
-        <div className="mb-16">
-          <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Values & Commitment</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Values */}
+          <div className="mb-16">
+            <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Values & Commitment</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {values.map((value, index) => (
               <Card
-                key={index}
-                className="text-center hover:shadow-lg transition-all duration-300 border-0 shadow-md group hover:-translate-y-2"
+              key={index}
+              className="text-center hover:shadow-lg transition-all duration-300 border-0 shadow-md group hover:-translate-y-2"
               >
-                <CardContent className="p-6">
+              <CardContent className="p-6">
                   <div className="mx-auto mb-4 p-3 bg-red-50 rounded-full w-fit group-hover:bg-red-100 transition-colors">
                     {value.icon}
                   </div>

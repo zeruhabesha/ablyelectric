@@ -35,36 +35,39 @@ export default function Hero() {
           {/* Content */}
           <div className="space-y-8">
             <div className="space-y-6">
+              {/* Group 1: Logo */}
               <div className="flex items-center space-x-3">
-                {/* <Image
-                  src="/images/ably-logo.png"
-                  alt="ABLY ELECTRIC"
-                  width={200}
-                  height={67}
-                  className="h-16 w-auto"
-                /> */}
+              {/* <Image
+                src="/images/ably-logo.png"
+                alt="ABLY ELECTRIC"
+                width={200}
+                height={67}
+                className="h-16 w-auto"
+              /> */}
               </div>
 
+              {/* Group 2: Title and Subtitle */}
               <div className="relative">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                  Your Trusted Partner for{" "}
-                  <span className="relative inline-block">
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">
-                      Energy & Technology
-                    </span>
-                    <span className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-red-400 to-red-600 rounded-full"></span>
-                  </span>
-                </h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                Your Trusted Partner for{" "}
+                <span className="relative inline-block">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">
+                  Energy & Technology
+                </span>
+                <span className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-red-400 to-red-600 rounded-full"></span>
+                </span>
+              </h1>
               </div>
 
+              {/* Group 3: Description */}
               <h2 className="text-xl lg:text-2xl text-red-400 font-semibold">
-                Supporting Homes, Businesses & Industries!
+              Supporting Homes, Businesses & Industries!
               </h2>
 
               <p className="text-lg lg:text-xl text-gray-300 leading-relaxed">
-                At ABLY ELECTRIC, we specialize in high-quality electrical and mechanical products & services, ensuring
-                businesses run efficiently and sustainably. Our expertise spans EV chargers, power backup systems,
-                industrial trainers, automation solutions, instrumentation, and electrical board maintenance.
+              At ABLY ELECTRIC, we specialize in high-quality electrical and mechanical products & services, ensuring
+              businesses run efficiently and sustainably. Our expertise spans EV chargers, power backup systems,
+              industrial trainers, automation solutions, instrumentation, and electrical board maintenance.
               </p>
             </div>
 
