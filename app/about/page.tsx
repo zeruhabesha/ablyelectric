@@ -62,7 +62,7 @@ export default function AboutPage() {
     {
       year: "2024",
       title: "500+ Projects",
-      description: "Completed over 500 successful installations across India, serving diverse industries",
+      description: "Completed over 500 successful installations across Ethiopia, serving diverse industries",
       icon: <TrendingUp className="h-6 w-6" />,
     },
   ]
@@ -227,7 +227,7 @@ export default function AboutPage() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">15+ Years</span>
             </h1>
             <p className="text-xl lg:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              From a small electrical components distributor to India's trusted partner for comprehensive energy and
+              From a small electrical components distributor to Ethiopia's trusted partner for comprehensive energy and
               technology solutions.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
@@ -300,7 +300,7 @@ export default function AboutPage() {
                           Founded in 2009, ABLY ELECTRIC began as a vision to bridge the gap between cutting-edge
                           technology and practical industrial applications. What started as a small electrical
                           components distributor has evolved into a comprehensive solution provider for homes,
-                          businesses, and industries across India.
+                          businesses, and industries across Ethiopia.
                         </p>
                         <p>
                           Our journey has been marked by continuous innovation, strategic partnerships, and an
@@ -470,7 +470,7 @@ export default function AboutPage() {
                               Our Vision
                             </h3>
                             <p className="text-red-100 leading-relaxed">
-                              To be India's leading provider of comprehensive energy and technology solutions,
+                              To be Ethiopia's leading provider of comprehensive energy and technology solutions,
                               recognized for innovation, quality, and commitment to sustainable development.
                             </p>
                           </div>

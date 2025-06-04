@@ -88,7 +88,7 @@ export default function About() {
               </p>
               <p className="text-gray-700 leading-relaxed">
                 Our journey began with a commitment to excellence and has evolved into a comprehensive solution provider
-                for homes, businesses, and industries across India. We pride ourselves on delivering reliable,
+                for homes, businesses, and industries across Ethiopia. We pride ourselves on delivering reliable,
                 efficient, and sustainable energy solutions.
               </p>
             </div>

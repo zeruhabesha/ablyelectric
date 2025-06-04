@@ -24,7 +24,7 @@ export default function InstallationServicesPage() {
       id: 1,
       title: "Industrial Panel Installation",
       category: "Electrical Panels",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/services/installation/indusrtial.jpg?height=300&width=400",
       description: "Complete installation of industrial electrical control panels with safety compliance and testing.",
       details: {
         duration: "2-5 days",
@@ -43,7 +43,7 @@ export default function InstallationServicesPage() {
       id: 2,
       title: "UPS System Installation",
       category: "Power Backup",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/services/installation/ups.webp?height=300&width=400",
       description: "Professional UPS installation with battery backup configuration and monitoring systems.",
       details: {
         duration: "1-3 days",
@@ -62,7 +62,7 @@ export default function InstallationServicesPage() {
       id: 3,
       title: "Motor Control Center Setup",
       category: "Industrial Motors",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/services/installation/motor.webp?height=300&width=400",
       description: "Complete motor control center installation with variable frequency drives and protection systems.",
       details: {
         duration: "3-7 days",
@@ -81,7 +81,7 @@ export default function InstallationServicesPage() {
       id: 4,
       title: "Instrumentation Setup",
       category: "Process Control",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/services/installation/instrumentation.jpg?height=300&width=400",
       description: "Precision instrumentation installation for process control and monitoring applications.",
       details: {
         duration: "2-4 days",
@@ -100,7 +100,7 @@ export default function InstallationServicesPage() {
       id: 5,
       title: "Generator Installation",
       category: "Backup Power",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/services/installation/generator.jpg?height=300&width=400",
       description: "Complete diesel generator installation with automatic start systems and fuel management.",
       details: {
         duration: "3-5 days",
@@ -119,7 +119,7 @@ export default function InstallationServicesPage() {
       id: 6,
       title: "Electrical Maintenance",
       category: "Maintenance",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/services/installation/maintenance.png?height=300&width=400",
       description: "Comprehensive electrical maintenance services including preventive and corrective maintenance.",
       details: {
         duration: "Ongoing",

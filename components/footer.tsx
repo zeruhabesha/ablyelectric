@@ -74,7 +74,7 @@ export default function Footer() {
               </div>
               <p className="text-gray-300 leading-relaxed mb-6">
                 Your trusted partner for electrical and mechanical solutions. We specialize in high-quality products and
-                services for homes, businesses, and industries across India.
+                services for homes, businesses, and industries across Ethiopia.
               </p>
             </div>
 

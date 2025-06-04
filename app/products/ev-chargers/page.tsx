@@ -23,10 +23,10 @@ export default function EVChargersPage() {
   const evChargers = [
     {
       id: 1,
-      name: "ABLY Fast DC Charger 60kW",
+      name: "Fast DC Charger 60kW",
       category: "DC Fast Charging",
       // price: "₹4,50,000",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Power & Backup/ev chargers/fast.jpg?height=300&width=400",
       rating: 4.8,
       description: "Fast, efficient charging solutions for electric vehicles with Level 2 & DC fast charging options",
       specifications: {
@@ -60,10 +60,10 @@ export default function EVChargersPage() {
     },
     {
       id: 2,
-      name: "ABLY Smart AC Charger 22kW",
+      name: "Smart AC Charger 22kW",
       category: "AC Charging",
       // price: "₹85,000",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Power & Backup/ev chargers/ac.png?height=300&width=400",
       rating: 4.6,
       description: "Smart AC charger perfect for residential and workplace charging with efficient power conversion",
       specifications: {
@@ -97,10 +97,10 @@ export default function EVChargersPage() {
     },
     {
       id: 3,
-      name: "ABLY Ultra Fast 150kW",
+      name: "Ultra Fast 150kW",
       category: "DC Fast Charging",
       // price: "₹8,50,000",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Power & Backup/ev chargers/ultra.jpg?height=300&width=400",
       rating: 4.9,
       description: "Ultra-fast charging solution for high-traffic commercial locations",
       specifications: {
@@ -134,10 +134,10 @@ export default function EVChargersPage() {
     },
     {
       id: 4,
-      name: "ABLY Home Charger 7kW",
+      name: "Home Charger 7kW",
       category: "AC Charging",
       // price: "₹35,000",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Power & Backup/ev chargers/home.webp?height=300&width=400",
       rating: 4.5,
       description: "Compact home charging solution with smart features",
       specifications: {
@@ -167,10 +167,10 @@ export default function EVChargersPage() {
     },
     {
       id: 5,
-      name: "ABLY Portable Charger 3.5kW",
+      name: "Portable Charger 3.5kW",
       category: "Portable",
       // price: "₹18,000",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Power & Backup/ev chargers/portable.avif?height=300&width=400",
       rating: 4.3,
       description: "Portable charging solution for emergency and travel use",
       specifications: {
@@ -200,10 +200,10 @@ export default function EVChargersPage() {
     },
     {
       id: 6,
-      name: "ABLY Fleet Charger 50kW",
+      name: "Fleet Charger 50kW",
       category: "DC Fast Charging",
       // price: "₹3,75,000",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Power & Backup/ev chargers/fleet.jpg?height=300&width=400",
       rating: 4.7,
       description: "Optimized for fleet operations with multiple vehicle support",
       specifications: {

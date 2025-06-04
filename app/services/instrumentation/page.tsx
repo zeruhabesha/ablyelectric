@@ -24,7 +24,7 @@ export default function InstrumentationProcessControlPage() {
             id: 1,
             title: "Sensor Installation & Calibration",
             category: "Sensors",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/instrumentation/sensor.jpg?height=300&width=400",
             description: "Precision installation and calibration of process sensors for accurate measurement and control.",
             details: {
                 duration: "1-3 days",
@@ -43,7 +43,7 @@ export default function InstrumentationProcessControlPage() {
             id: 2,
             title: "PLC & DCS Programming",
             category: "Automation",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/instrumentation/pcl.webp?height=300&width=400",
             description: "Custom PLC and DCS programming for automated process control and monitoring.",
             details: {
                 duration: "2-5 days",
@@ -62,7 +62,7 @@ export default function InstrumentationProcessControlPage() {
             id: 3,
             title: "Control Panel Fabrication",
             category: "Control Panels",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/instrumentation/control.jpg?height=300&width=400",
             description: "Design, fabrication, and installation of custom control panels for process industries.",
             details: {
                 duration: "3-7 days",
@@ -81,7 +81,7 @@ export default function InstrumentationProcessControlPage() {
             id: 4,
             title: "Data Acquisition Systems",
             category: "Data Logging",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/instrumentation/data.webp?height=300&width=400",
             description: "Implementation of data acquisition and logging systems for process analysis and reporting.",
             details: {
                 duration: "2-4 days",
@@ -100,7 +100,7 @@ export default function InstrumentationProcessControlPage() {
             id: 5,
             title: "Process Analyzer Integration",
             category: "Analyzers",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/instrumentation/process.jpg?height=300&width=400",
             description: "Installation and integration of process analyzers for quality and compliance monitoring.",
             details: {
                 duration: "2-5 days",
@@ -119,7 +119,7 @@ export default function InstrumentationProcessControlPage() {
             id: 6,
             title: "Instrumentation Maintenance",
             category: "Maintenance",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/instrumentation/maintenance.avif?height=300&width=400",
             description: "Preventive and corrective maintenance for all instrumentation and control systems.",
             details: {
                 duration: "Ongoing",

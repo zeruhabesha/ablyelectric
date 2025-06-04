@@ -24,7 +24,7 @@ export default function EVChargerInstallationPage() {
             id: 1,
             title: "Home EV Charger Installation",
             category: "Residential",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/ev_charger/home.jpg?height=300&width=400",
             description: "Safe and efficient installation of EV chargers at your home, including wiring and setup.",
             details: {
                 duration: "1 day",
@@ -43,7 +43,7 @@ export default function EVChargerInstallationPage() {
             id: 2,
             title: "Commercial EV Charging Stations",
             category: "Commercial",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/ev_charger/comercial.png?height=300&width=400",
             description: "Installation of multiple EV charging points for offices, malls, and parking lots.",
             details: {
                 duration: "2-4 days",
@@ -62,7 +62,7 @@ export default function EVChargerInstallationPage() {
             id: 3,
             title: "Fast DC Charger Installation",
             category: "Fast Charging",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/ev_charger/fast.jpg?height=300&width=400",
             description: "High-power DC fast charger installation for rapid EV charging at public or fleet locations.",
             details: {
                 duration: "3-5 days",
@@ -81,7 +81,7 @@ export default function EVChargerInstallationPage() {
             id: 4,
             title: "EV Charger Maintenance",
             category: "Maintenance",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/ev_charger/maintenance.jpg?height=300&width=400",
             description: "Routine and emergency maintenance for all types of EV chargers.",
             details: {
                 duration: "Ongoing",
@@ -100,7 +100,7 @@ export default function EVChargerInstallationPage() {
             id: 5,
             title: "Fleet EV Charging Solutions",
             category: "Fleet",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/ev_charger/fleet.png?height=300&width=400",
             description: "Custom EV charging infrastructure for electric vehicle fleets.",
             details: {
                 duration: "5-10 days",
@@ -119,7 +119,7 @@ export default function EVChargerInstallationPage() {
             id: 6,
             title: "Solar-integrated EV Charging",
             category: "Green Energy",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/ev_charger/solar.png?height=300&width=400",
             description: "Eco-friendly EV charging stations powered by solar energy.",
             details: {
                 duration: "3-7 days",

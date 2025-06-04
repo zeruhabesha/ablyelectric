@@ -24,7 +24,7 @@ export default function ElectricalBoardMaintenancePage() {
             id: 1,
             title: "Routine Board Inspection",
             category: "Preventive Maintenance",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/electrical_board/routine.webp?height=300&width=400",
             description: "Scheduled inspections to identify wear, loose connections, and overheating in electrical boards.",
             details: {
                 duration: "1-2 hours",
@@ -43,7 +43,7 @@ export default function ElectricalBoardMaintenancePage() {
             id: 2,
             title: "Board Cleaning & Servicing",
             category: "Cleaning",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/electrical_board/cleaning.jpeg?height=300&width=400",
             description: "Comprehensive cleaning and servicing of electrical boards to prevent faults and improve reliability.",
             details: {
                 duration: "2-3 hours",
@@ -62,7 +62,7 @@ export default function ElectricalBoardMaintenancePage() {
             id: 3,
             title: "Thermal Imaging Analysis",
             category: "Diagnostics",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/electrical_board/thermal.png?height=300&width=400",
             description: "Thermal imaging to detect hotspots and prevent electrical failures in boards.",
             details: {
                 duration: "1 hour",
@@ -81,7 +81,7 @@ export default function ElectricalBoardMaintenancePage() {
             id: 4,
             title: "Board Component Replacement",
             category: "Corrective Maintenance",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/electrical_board/circuit.jpg?height=300&width=400",
             description: "Replacement of faulty breakers, relays, and other board components for safe operation.",
             details: {
                 duration: "1-4 hours",
@@ -100,7 +100,7 @@ export default function ElectricalBoardMaintenancePage() {
             id: 5,
             title: "Insulation Resistance Testing",
             category: "Testing",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/electrical_board/insulation.jpg?height=300&width=400",
             description: "Testing insulation resistance to ensure safety and prevent electrical leakage.",
             details: {
                 duration: "1 hour",
@@ -119,7 +119,7 @@ export default function ElectricalBoardMaintenancePage() {
             id: 6,
             title: "Emergency Board Repair",
             category: "Emergency Service",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/services/electrical_board/emergency.webp?height=300&width=400",
             description: "Rapid response for electrical board failures and urgent repairs.",
             details: {
                 duration: "As needed",
@@ -450,7 +450,7 @@ export default function ElectricalBoardMaintenancePage() {
                             <Phone className="mr-2 h-5 w-5" />
                             Call Now: +251 911 464023
                         </Button>
-                        <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black">
+                        <Button size="lg" variant="outline" className="border-white text-black hover:bg-white hover:text-black">
                             <Calendar className="mr-2 h-5 w-5" />
                             Schedule Maintenance Visit
                         </Button>

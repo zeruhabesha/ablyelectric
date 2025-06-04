@@ -24,12 +24,12 @@ export default function BlogPage() {
       category: "EV Technology",
       date: "Dec 15, 2024",
       author: "Technical Team",
-      authorImage: "/placeholder.svg?height=40&width=40",
+      authorImage: "/blogs/ev.jpg?height=40&width=40",
       readTime: "5 min read",
       views: "2.4k",
       comments: 18,
       featured: true,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/blogs/ev.jpg?height=400&width=600",
       tags: ["EV Chargers", "Business", "ROI", "Installation"],
       trending: true,
     },
@@ -48,7 +48,7 @@ export default function BlogPage() {
       views: "1.8k",
       comments: 12,
       featured: false,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/blogs/voltage.jpg?height=400&width=600",
       tags: ["Voltage Stabilizers", "Power Quality", "Industrial"],
       trending: false,
     },
@@ -67,7 +67,7 @@ export default function BlogPage() {
       views: "1.2k",
       comments: 8,
       featured: false,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/blogs/traning.jpg?height=400&width=600",
       tags: ["Education", "Training", "Skills Development"],
       trending: true,
     },
@@ -86,7 +86,7 @@ export default function BlogPage() {
       views: "3.1k",
       comments: 24,
       featured: false,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/blogs/fix.png?height=400&width=600",
       tags: ["Process Control", "Automation", "Troubleshooting"],
       trending: false,
     },
@@ -105,7 +105,7 @@ export default function BlogPage() {
       views: "2.7k",
       comments: 16,
       featured: false,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/blogs/optimise.jpeg?height=400&width=600",
       tags: ["Pneumatics", "Hydraulics", "Optimization"],
       trending: true,
     },
@@ -124,17 +124,17 @@ export default function BlogPage() {
       views: "1.9k",
       comments: 14,
       featured: false,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/blogs/maintenance.jpg?height=400&width=600",
       tags: ["Safety", "Maintenance", "Electrical Boards"],
       trending: false,
     },
     {
       id: 7,
-      title: "Future of Smart Grid Technology in India",
+      title: "Future of Smart Grid Technology in Ethiopia",
       excerpt:
         "Exploring the potential of smart grid implementation and its impact on energy distribution and consumption patterns.",
       content:
-        "Smart grid technology represents the next evolution in electrical power distribution systems. Discover its potential impact on India's energy landscape.",
+        "Smart grid technology represents the next evolution in electrical power distribution systems. Discover its potential impact on Ethiopia's energy landscape.",
       category: "Technology",
       date: "Nov 10, 2024",
       author: "Research Team",
@@ -143,7 +143,7 @@ export default function BlogPage() {
       views: "4.2k",
       comments: 32,
       featured: false,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/blogs/smart.avif?height=400&width=600",
       tags: ["Smart Grid", "Technology", "Future"],
       trending: true,
     },
@@ -162,7 +162,7 @@ export default function BlogPage() {
       views: "2.1k",
       comments: 19,
       featured: false,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/blogs/maintenance.png?height=400&width=600",
       tags: ["UPS", "Maintenance", "Best Practices"],
       trending: false,
     },
@@ -305,7 +305,7 @@ export default function BlogPage() {
                   <div className="grid lg:grid-cols-2">
                     <div className="relative">
                       <img
-                        src={featuredPost.image || "/placeholder.svg"}
+                        src={featuredPost.image || "/blogs/ev.jpg"}
                         alt={featuredPost.title}
                         className="w-full h-64 lg:h-full object-cover"
                       />

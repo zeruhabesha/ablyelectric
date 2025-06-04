@@ -24,7 +24,7 @@ export default function UpsSystemsPage() {
             id: 1,
             name: "Online UPS System",
             category: "Online",
-            image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Power & Backup/ups system/online.jpg?height=300&width=400",
             rating: 4.8,
             description: "Double-conversion online UPS for critical power backup and clean output.",
             specifications: {
@@ -62,7 +62,7 @@ export default function UpsSystemsPage() {
             id: 2,
             name: "Line Interactive UPS",
             category: "Line Interactive",
-            image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Power & Backup/ups system/line.jpg?height=300&width=400",
             rating: 4.6,
             description: "Cost-effective UPS for computers, POS, and network devices.",
             specifications: {
@@ -100,7 +100,7 @@ export default function UpsSystemsPage() {
             id: 3,
             name: "Modular UPS System",
             category: "Modular",
-            image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Power & Backup/ups system/modular.webp?height=300&width=400",
             rating: 4.9,
             description: "Scalable modular UPS for large enterprises and data centers.",
             specifications: {
@@ -138,7 +138,7 @@ export default function UpsSystemsPage() {
             id: 4,
             name: "Offline UPS",
             category: "Offline",
-            image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Power & Backup/ups system/ofline.jpeg?height=300&width=400",
             rating: 4.4,
             description: "Entry-level UPS for basic backup of PCs and peripherals.",
             specifications: {
