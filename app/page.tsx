@@ -79,7 +79,24 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      {/* Partners Section */}
+      <section className="py-12 bg-gray-100">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8">
+        <h2 className="text-2xl font-semibold text-gray-800">Our Trusted Partners</h2>
+        <p className="text-gray-600">We collaborate with industry-leading partners to deliver exceptional solutions.</p>
+          </div>
 
+          {/* Partners Logo Slider (Replace with actual slider component) */}
+          <div className="flex flex-wrap justify-around items-center gap-6">
+        {/* Partner Logos - Replace with actual image URLs */}
+        <img src="/logo/mge.webp" alt="Partner 1" className="h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+        <img src="/logo/Microchip.png" alt="Partner 2" className="h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+        <img src="/logo/apc.png" alt="Partner 3" className="h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+        <img src="/logo/Schneider.png" alt="Partner 4" className="h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+          </div>
+        </div>
+      </section>
       <Products />
       <About />
 

@@ -121,76 +121,130 @@ export default function ContactPage() {
       <section className="py-20 lg:py-24 bg-gradient-to-br from-red-50 via-white to-gray-100">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-14">
-            {/* Support Features */}
+        {/* Support Features */}
+        <div>
+          <h3 className="text-3xl font-extrabold text-black mb-8">
+            Why Choose Our Support?
+          </h3>
+          <div className="space-y-7">
+            {supportFeatures.map((feature, index) => (
+          <Card
+            key={index}
+            className="border-l-4 border-l-red-600 shadow-lg bg-white/95 rounded-xl"
+          >
+            <CardContent className="p-6">
+              <div className="flex items-start space-x-5">
+            <div className="flex-shrink-0">{feature.icon}</div>
             <div>
-              <h3 className="text-3xl font-extrabold text-black mb-8">
-                Why Choose Our Support?
-              </h3>
-              <div className="space-y-7">
-                {supportFeatures.map((feature, index) => (
-                  <Card
-                    key={index}
-                    className="border-l-4 border-l-red-600 shadow-lg bg-white/95 rounded-xl"
-                  >
-                    <CardContent className="p-6">
-                      <div className="flex items-start space-x-5">
-                        <div className="flex-shrink-0">{feature.icon}</div>
-                        <div>
-                          <h4 className="font-bold text-xl text-black mb-1">
-                            {feature.title}
-                          </h4>
-                          <p className="text-gray-600 text-base">
-                            {feature.description}
-                          </p>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
+              <h4 className="font-bold text-xl text-black mb-1">
+                {feature.title}
+              </h4>
+              <p className="text-gray-600 text-base">
+                {feature.description}
+              </p>
+            </div>
               </div>
-            </div>
+            </CardContent>
+          </Card>
+            ))}
+          </div>
+        </div>
 
-            {/* Quick Contact */}
-            <div>
-              <Card className="bg-gradient-to-r from-red-600 to-black text-white shadow-2xl rounded-2xl">
-                <CardContent className="p-8">
-                  <h4 className="text-2xl font-bold mb-6">
-                    Quick Contact Options
-                  </h4>
-                  <div className="space-y-5">
-                    <Button className="w-full bg-white/20 hover:bg-white/30 text-white justify-start text-lg py-5 font-semibold shadow">
-                      <Link
-                        href="tel:+251911464023"
-                        className="flex items-center w-full"
-                      >
-                        <Phone className="mr-3 h-6 w-6" />
-                        Call: +251 911 464023 / +251 913 043477 / +251 912 286121
-                      </Link>
-                    </Button>
-                    <Button className="w-full bg-white/20 hover:bg-white/30 text-white justify-start text-lg py-5 font-semibold shadow">
-                      <Link
-                        href="https://wa.me/251911464023"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center w-full"
-                      >
-                        <MessageCircle className="mr-3 h-6 w-6" />
-                        WhatsApp Support
-                      </Link>
-                    </Button>
-                    <Button className="w-full bg-white/20 hover:bg-white/30 text-white justify-start text-lg py-5 font-semibold shadow">
-                      <Link
-                        href="mailto:info@ablyelectric.com"
-                        className="flex items-center w-full"
-                      >
-                        <Mail className="mr-3 h-6 w-6" />
-                        Email: info@ablyelectric.com
-                      </Link>
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+        {/* Quick Contact */}
+        <div className="flex items-stretch">
+            <Card className="bg-gradient-to-r from-red-600 to-black text-white shadow-2xl rounded-2xl flex-grow">
+            <CardContent className="p-8 flex flex-col justify-between">
+              <div>
+              <h4 className="text-2xl font-bold mb-6">Quick Contact Options</h4>
+              <div className="space-y-4">
+              <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+              <Link
+              href="tel:+251911464023"
+              className="flex items-center w-full"
+              >
+              <Phone className="mr-3 h-5 w-5" />
+              Call: +251 911 464023
+              </Link>
+              </Button>
+              <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+              <Link
+              href="https://wa.me/251911464023"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center w-full"
+              >
+              <MessageCircle className="mr-3 h-5 w-5" />
+              WhatsApp Support
+              </Link>
+              </Button>
+              <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+              <Link
+              href="mailto:info@ablyelectric.com"
+              className="flex items-center w-full"
+              >
+              <Mail className="mr-3 h-5 w-5" />
+              Email: info@ablyelectric.com
+              </Link>
+              </Button>
+               <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+              <Link
+              href="https://t.me/yourtelegramprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center w-full"
+              >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="mr-3 h-5 w-5"
+              >
+                <path d="M2.39 3.35C1.07 4.24.21 5.78.21 7.43c0 3.89 2.83 6.19 2.83 6.19s1.15 4.77 1.36 5.61c.17.68.83.84 1.3.37l3.2-2.41 6.29 4.74c.83.62 1.93.39 2.25-.58l3.54-12.09c.2-.69-.14-1.35-.83-1.54L2.39 3.35zM17.56 6.53l-7.8 9.33c-.27.32-.64.48-1.01.48-.37 0-.73-.16-1-.48l-2.24-2.7.78-5.15c.07-.47.38-.83.85-.91.47-.08.93.18 1.01.64l1.33 8.85 3.62-2.73c.4-.3.96-.22 1.27.18l5.01 6.02c.22.27.54.41.85.41.31 0 .62-.14.84-.41.47-.56.05-1.5-.62-2.21l-10.1-12.14c-.42-.5-.92-.78-1.48-.78-.08 0-.17 0-.25.01z" />
+              </svg>
+              Telegram Channel
+              </Link>
+              </Button>
+              <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+              <Link
+              href="https://linkedin.com/yourlinkedinprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center w-full"
+              >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="mr-3 h-5 w-5"
+              >
+                <path d="M20.447 2.062h-3.167c-2.13 0-3.583 1.43-3.583 3.426v3.844h-3.166v-3.844c0-2.002-1.472-3.426-3.583-3.426h-3.167v19.876h3.167v-8.087c0-2.009 1.813-3.647 3.426-3.647 1.614 0 3.166 1.638 3.166 3.647v8.087h3.167v-4.141c0-2.576 2.352-4.667 4.353-4.667 2.002 0 3.583 2.091 3.583 4.667v4.141h3.166v-10.229c0-2.002-1.472-3.426-3.583-3.426z" />
+              </svg>
+              LinkedIn Profile
+              </Link>
+              </Button>
+               <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+              <Link
+              href="https://facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center w-full"
+              >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="mr-3 h-5 w-5"
+              >
+                <path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.663 9.151 8.437 9.879v-7.028h-2.54v-2.851h2.54V9.584c0-2.542 1.564-3.945 3.875-3.945 1.094 0 2.238.191 2.551.274v2.966h-1.734c-1.226 0-1.475.613-1.475 1.512v1.925h2.94l-.475 3.028h-2.465v7.028A10.019 10.019 0 0022 12z" clipRule="evenodd" />
+              </svg>
+              Facebook Profile
+              </Link>
+              </Button>
+              </div>
+              </div>
+            </CardContent>
+            </Card>
+        </div>
           </div>
         </div>
       </section>

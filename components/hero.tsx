@@ -3,6 +3,8 @@ import { ArrowRight, ChevronDown, Zap, Shield, Award, Clock } from "lucide-react
 import Link from "next/link"
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
+import ImageSlider from "@/components/image-slider"
+
 
 export default function Hero() {
   return (
@@ -130,68 +132,27 @@ export default function Hero() {
           </div>
 
           {/* Electrical Icons Grid */}
-          <div className="relative">
-            <div className="grid grid-cols-2 gap-6">
-              {/* EV Charger Icon */}
-              <div className="bg-gradient-to-br from-red-600 to-black rounded-2xl p-6 text-center transform transition-transform hover:scale-105 hover:shadow-lg hover:shadow-red-500/20 group">
-                <svg
-                  className="h-16 w-16 mx-auto mb-4 text-white group-hover:text-red-300 transition-colors"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v15.33C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V5.33C17 4.6 16.4 4 15.67 4zM11 20v-5.5H9L13 7v5.5h2L11 20z" />
-                </svg>
-                <div className="text-white font-semibold group-hover:text-red-300 transition-colors">EV Chargers</div>
-              </div>
-
-              {/* Power Supply Icon */}
-              <div className="bg-gradient-to-br from-red-600 to-black rounded-2xl p-6 text-center transform transition-transform hover:scale-105 hover:shadow-lg hover:shadow-red-500/20 group">
-                <svg
-                  className="h-16 w-16 mx-auto mb-4 text-white group-hover:text-red-300 transition-colors"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v15.33C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V5.33C17 4.6 16.4 4 15.67 4zM11 20v-5.5H9L13 7v5.5h2L11 20z" />
-                </svg>
-                <div className="text-white font-semibold group-hover:text-red-300 transition-colors">UPS Systems</div>
-              </div>
-
-              {/* Industrial Control Icon */}
-              <div className="bg-gradient-to-br from-red-600 to-black rounded-2xl p-6 text-center transform transition-transform hover:scale-105 hover:shadow-lg hover:shadow-red-500/20 group">
-                <svg
-                  className="h-16 w-16 mx-auto mb-4 text-white group-hover:text-red-300 transition-colors"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 9V7l-2-2H4L2 7v2h20zm0 2H2v8l2 2h16l2-2v-8zM6 16h2v2H6v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2z" />
-                </svg>
-                <div className="text-white font-semibold group-hover:text-red-300 transition-colors">
-                  Industrial Control
-                </div>
-              </div>
-
-              {/* Training Equipment Icon */}
-              <div className="bg-gradient-to-br from-red-600 to-black rounded-2xl p-6 text-center transform transition-transform hover:scale-105 hover:shadow-lg hover:shadow-red-500/20 group">
-                <svg
-                  className="h-16 w-16 mx-auto mb-4 text-white group-hover:text-red-300 transition-colors"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6L23 9l-11-6zM18.82 9L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
-                </svg>
-                <div className="text-white font-semibold group-hover:text-red-300 transition-colors">
-                  Training Equipment
-                </div>
+            {/* Image Slider */}
+            <div className="relative">
+            {/* Image Slider (Replace with your actual slider component) */}
+            <div className="w-full h-96 rounded-2xl overflow-hidden">
+              {/* Image Slider */}
+              <div className="relative h-full">
+              <ImageSlider images={[
+              "/1.jpg",
+              "/2.jpg",
+              "/3.jpg"
+              ]} showButtons={true} />
               </div>
             </div>
 
             {/* Floating Lightning Bolt */}
             <div className="absolute -top-4 -right-4 bg-red-500 text-white p-3 rounded-full animate-bounce shadow-lg shadow-red-500/50">
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M11 21h-1l1-7H7.5c-.58 0-.57-.32-.38-.66.19-.34.05-.08.07-.12C8.48 10.94 10.42 7.54 13 3h1l-1 7h3.5c.49 0 .56.33.47.51l-.07.15C12.96 17.55 11 21 11 21z" />
+              <path d="M11 21h-1l1-7H7.5c-.58 0-.57-.32-.38-.66.19-.34.05-.08.07-.12C8.48 10.94 10.42 7.54 13 3h1l-1 7h3.5c.49 0 .56.33.47.51l-.07.15C12.96 17.55 11 21 11 21z" />
               </svg>
             </div>
-          </div>
+            </div>
         </div>
 
         {/* Scroll Down Indicator */}

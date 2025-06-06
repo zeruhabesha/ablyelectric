@@ -63,29 +63,29 @@ export default function AboutPage() {
 
   const teamMembers = [
     {
-      name: "Rajesh Kumar",
+      name: "Abebe Kebede",
       position: "Founder & CEO",
       experience: "20+ years",
       specialization: "Electrical Engineering & Business Strategy",
       image: "/placeholder.svg?height=300&width=300",
       bio: "Visionary leader with extensive experience in electrical engineering and business development. Passionate about sustainable energy solutions.",
-      achievements: ["B.Tech Electrical Engineering", "MBA Operations", "Industry Pioneer Award 2023"],
+      achievements: ["B.Sc Electrical Engineering", "MBA Operations", "Industry Pioneer Award 2023"],
       linkedin: "#",
-      email: "rajesh@ablyelectric.com",
+      email: "abebe@ablyelectric.com",
     },
     {
-      name: "Priya Sharma",
+      name: "Fatuma Ali",
       position: "Technical Director",
       experience: "15+ years",
       specialization: "Industrial Automation & Process Control",
       image: "/placeholder.svg?height=300&width=300",
       bio: "Expert in industrial automation with a track record of implementing cutting-edge control systems across various industries.",
-      achievements: ["M.Tech Automation", "Certified PMP", "Excellence in Engineering Award"],
+      achievements: ["M.Sc Automation", "Certified PMP", "Excellence in Engineering Award"],
       linkedin: "#",
-      email: "priya@ablyelectric.com",
+      email: "fatuma@ablyelectric.com",
     },
     {
-      name: "Amit Patel",
+      name: "Tesfaye Lemma",
       position: "Sales Manager",
       experience: "12+ years",
       specialization: "Business Development & Client Relations",
@@ -93,10 +93,10 @@ export default function AboutPage() {
       bio: "Dynamic sales professional with expertise in building long-term client relationships and driving business growth.",
       achievements: ["MBA Marketing", "Sales Excellence Award", "Top Performer 2023"],
       linkedin: "#",
-      email: "amit@ablyelectric.com",
+      email: "tesfaye@ablyelectric.com",
     },
     {
-      name: "Dr. Sunita Rao",
+      name: "Dr. Aster Tsegaye",
       position: "Training Head",
       experience: "18+ years",
       specialization: "Technical Education & Curriculum Development",
@@ -104,7 +104,7 @@ export default function AboutPage() {
       bio: "Renowned educator and researcher dedicated to advancing technical education and developing industry-ready professionals.",
       achievements: ["Ph.D. Electrical Engineering", "Published 50+ Papers", "Best Educator Award"],
       linkedin: "#",
-      email: "sunita@ablyelectric.com",
+      email: "aster@ablyelectric.com",
     },
   ]
 
@@ -139,12 +139,12 @@ export default function AboutPage() {
     },
   ]
 
-  const certifications = [
-    { name: "BIS Approved Products", icon: <Shield className="h-5 w-5" />, year: "2020" },
-    { name: "CE Marked Equipment", icon: <CheckCircle className="h-5 w-5" />, year: "2019" },
-    { name: "Authorized Distributor Certificates", icon: <Globe className="h-5 w-5" />, year: "2018" },
-    { name: "Electrical Safety Compliance", icon: <Zap className="h-5 w-5" />, year: "2022" },
-  ]
+  // const certifications = [
+  //   { name: "BIS Approved Products", icon: <Shield className="h-5 w-5" />, year: "2020" },
+  //   { name: "CE Marked Equipment", icon: <CheckCircle className="h-5 w-5" />, year: "2019" },
+  //   { name: "Authorized Distributor Certificates", icon: <Globe className="h-5 w-5" />, year: "2018" },
+  //   { name: "Electrical Safety Compliance", icon: <Zap className="h-5 w-5" />, year: "2022" },
+  // ]
 
   const stats = [
     { number: "500+", label: "Projects Completed", icon: <TrendingUp className="h-6 w-6" /> },
@@ -186,7 +186,7 @@ export default function AboutPage() {
     { id: "story", label: "Our Story", icon: <Building className="h-4 w-4" /> },
     { id: "team", label: "Leadership Team", icon: <Users className="h-4 w-4" /> },
     { id: "values", label: "Values & Mission", icon: <Target className="h-4 w-4" /> },
-    { id: "certifications", label: "Certifications", icon: <Award className="h-4 w-4" /> },
+    // { id: "certifications", label: "Certifications", icon: <Award className="h-4 w-4" /> },
   ]
 
   return (
@@ -310,7 +310,7 @@ export default function AboutPage() {
 
                   <div className="relative">
                     <img
-                      src="/placeholder.svg?height=500&width=600"
+                      src="/jorney.jpg?height=500&width=600"
                       alt="ABLY ELECTRIC Journey"
                       className="rounded-2xl shadow-2xl"
                     />
@@ -537,7 +537,7 @@ export default function AboutPage() {
             )}
 
             {/* Certifications Tab */}
-            {activeTab === "certifications" && (
+            {/* {activeTab === "certifications" && (
               <div className="space-y-12">
                 <div className="text-center">
                   <h2 className="text-3xl lg:text-4xl font-bold text-black mb-4">Certifications & Standards</h2>
@@ -569,10 +569,10 @@ export default function AboutPage() {
                       </CardContent>
                     </Card>
                   ))}
-                </div>
+                </div> */}
 
                 {/* Quality Commitment */}
-                <div className="bg-gray-50 rounded-2xl p-8 lg:p-12">
+                {/* <div className="bg-gray-50 rounded-2xl p-8 lg:p-12">
                   <div className="max-w-4xl mx-auto text-center">
                     <h3 className="text-2xl font-bold text-black mb-6">Our Quality Commitment</h3>
                     <p className="text-gray-700 leading-relaxed mb-8">
@@ -606,8 +606,8 @@ export default function AboutPage() {
                     </div>
                   </div>
                 </div>
-              </div>
-            )}
+              </div> */}
+            {/* )} */}
           </div>
         </div>
       </section>

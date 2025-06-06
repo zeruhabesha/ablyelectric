@@ -90,8 +90,8 @@ export default function Header() {
               </button>
               {activeDropdown === "services" && (
                 <div
-                  className="absolute top-full left-0 mt-2 w-full bg-white rounded-lg shadow-xl border border-gray-200 py-6 z-50"
-                  style={{ width: "calc(100vw - 2rem)", left: "calc(-50vw + 50% + 1rem)" }}
+                  className="absolute top-full left-0 mt-2 w-full bg-white rounded-lg shadow-xl border border-gray-200 py-6"
+                  style={{ width: "calc(100vw - 2rem)", left: "calc(-50vw + 50% + 1rem)", zIndex: 60 }}
                 >
                   <div className="px-6">
                     <h3 className="font-semibold text-black mb-4 text-center">Electrical & Mechanical Services</h3>
@@ -141,8 +141,8 @@ export default function Header() {
               </button>
               {activeDropdown === "products" && (
                 <div
-                  className="absolute top-full left-0 mt-2 w-full bg-white rounded-lg shadow-xl border border-gray-200 py-6 z-50"
-                  style={{ width: "calc(100vw - 2rem)", left: "calc(-50vw + 50% + 1rem)" }}
+                  className="absolute top-full left-0 mt-2 w-full bg-white rounded-lg shadow-xl border border-gray-200 py-6"
+                  style={{ width: "calc(100vw - 5rem)", left: "calc(-50vw + 50% + 1rem)", zIndex: 60 }}
                 >
                   <div className="px-6">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -238,7 +238,7 @@ export default function Header() {
                         <div className="space-y-2">
                           <Link
                             href="/products/pumps"
-                            className="block px-3 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 rounded"
+                            className="lock px-3 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 rounded"
                           >
                             Industrial Pumps
                           </Link>
@@ -279,12 +279,12 @@ export default function Header() {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
-            <Button variant="outline" className="border-red-600 text-red-600 hover:bg-red-50">
+            {/* <Button variant="outline" className="border-red-600 text-red-600 hover:bg-red-50">
               Get Quote
-            </Button>
-            <Button className="bg-gradient-to-r from-red-600 to-black hover:from-red-700 hover:to-gray-900">
-              Call Now
-            </Button>
+            </Button> */}
+            <Link href="/contact">
+              <Button className="bg-gradient-to-r from-red-600 to-black hover:from-red-700 hover:to-gray-900">Call Now</Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -327,27 +327,72 @@ export default function Header() {
               </div>
 
               {/* Mobile Products */}
-              <div>
-                <div className="text-gray-900 font-medium mb-2">Products</div>
-                <div className="pl-4 space-y-2">
-                  <Link href="/products/ev-chargers" className="block text-sm text-gray-600 hover:text-red-600">
-                    EV Chargers
-                  </Link>
-                  <Link href="/products/ups" className="block text-sm text-gray-600 hover:text-red-600">
-                    UPS Systems
-                  </Link>
-                  <Link href="/products/electrical-trainer" className="block text-sm text-gray-600 hover:text-red-600">
-                    Electrical Trainers
-                  </Link>
-                  <Link href="/products/components" className="block text-sm text-gray-600 hover:text-red-600">
-                    Electronic Components
-                  </Link>
-                </div>
-              </div>
+<div>
+  <div className="text-gray-900 font-medium mb-2">Products</div>
+  <div className="pl-4 space-y-2 max-h-48 overflow-y-auto">
+    <div>
+      <div className="text-gray-900 font-semibold mb-1">Power & Backup</div>
+      <Link href="/products/ev-chargers" className="block text-sm text-gray-600 hover:text-red-600">
+        EV Chargers
+      </Link>
+      <Link href="/products/ups" className="block text-sm text-gray-600 hover:text-red-600">
+      UPS Systems
+    </Link>
+    <Link href="/products/inverters" className="block text-sm text-gray-600 hover:text-red-600">
+      Inverters
+    </Link>
+    <Link href="/products/generators" className="block text-sm text-gray-600 hover:text-red-600">
+      Generators
+    </Link>
+        <div className="text-gray-900 font-semibold mb-1">Industrial Training</div>
 
-              <Link href="/blog" className="block text-gray-700 hover:text-red-600 font-medium transition-colors">
-                Blog
-              </Link>
+    <Link href="/products/electrical-trainer" className="block text-sm text-gray-600 hover:text-red-600">
+      Electrical Trainers
+    </Link>
+    <Link href="/products/process-control" className="block text-sm text-gray-600 hover:text-red-600">
+      Process Control
+    </Link>
+    <Link href="/products/pneumatics" className="block text-sm text-gray-600 hover:text-red-600">
+      Pneumatics Trainer
+    </Link>
+    <Link href="/products/components" className="block text-sm text-gray-600 hover:text-red-600">
+      Electronic Components
+    </Link>
+            <div className="text-gray-900 font-semibold mb-1">Electrical Components</div>
+
+    <Link href="/products/capacitors" className="block text-sm text-gray-600 hover:text-red-600">
+      Capacitors & Diodes
+    </Link>
+    <Link href="/products/transistors" className="block text-sm text-gray-600 hover:text-red-600">
+      Transistors & ICs
+    </Link>
+    <Link href="/products/motors" className="block text-sm text-gray-600 hover:text-red-600">
+      Motors & Relays
+    </Link>
+    <Link href="/products/sensors" className="block text-sm text-gray-600 hover:text-red-600">
+      Sensors & Displays
+    </Link>
+            <div className="text-gray-900 font-semibold mb-1">Fluid Systems</div>
+
+    <Link href="/products/pumps" className="block text-sm text-gray-600 hover:text-red-600">
+      Industrial Pumps
+    </Link>
+    <Link href="/products/hydraulics" className="block text-sm text-gray-600 hover:text-red-600">
+      Hydraulics Trainer
+    </Link>
+    <Link href="/products/pneumatics-systems" className="block text-sm text-gray-600 hover:text-red-600">
+      Pneumatic Systems
+    </Link>
+    <Link href="/products/valves" className="block text-sm text-gray-600 hover:text-red-600">
+      Control Valves
+    </Link>
+  </div>
+</div>
+</div>
+
+          <Link href="/blog" className="block text-gray-700 hover:text-red-600 font-medium transition-colors">
+            Blog
+          </Link>
               <Link href="/contact" className="block text-gray-700 hover:text-red-600 font-medium transition-colors">
                 Contact
               </Link>
