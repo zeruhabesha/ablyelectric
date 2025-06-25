@@ -24,7 +24,7 @@ export default function PneumaticsTrainerPage() {
             id: 1,
             name: "Basic Pneumatics Trainer Kit",
             category: "Educational Kits",
-            image: "/pneumatics-basic.jpg",
+            image: "/products/Industrial Training/pneumatics trainer/electro.jpg?height=300&width=400",
             rating: 4.8,
             description: "Comprehensive trainer for learning fundamental pneumatic principles.",
             specifications: {
@@ -60,7 +60,7 @@ export default function PneumaticsTrainerPage() {
             id: 2,
             name: "Advanced Electro-Pneumatics Trainer",
             category: "Electro-Pneumatics",
-            image: "/pneumatics-advanced.jpg",
+            image: "/products/Industrial Training/pneumatics trainer/trainer.png?height=300&width=400",
             rating: 4.9,
             description: "Trainer for advanced pneumatic and electro-pneumatic circuit design.",
             specifications: {
@@ -96,7 +96,7 @@ export default function PneumaticsTrainerPage() {
             id: 3,
             name: "Portable Pneumatics Demonstrator",
             category: "Portable Trainers",
-            image: "/pneumatics-portable.jpg",
+            image: "/products/Industrial Training/pneumatics trainer/portable.png?height=300&width=400",
             rating: 4.7,
             description: "Compact trainer for on-site pneumatic demonstrations and workshops.",
             specifications: {
@@ -132,7 +132,7 @@ export default function PneumaticsTrainerPage() {
             id: 4,
             name: "Industrial Pneumatics Training System",
             category: "Industrial Trainers",
-            image: "/pneumatics-industrial.jpg",
+            image: "/products/Industrial Training/pneumatics trainer/industrial.jpg?height=300&width=400",
             rating: 4.6,
             description: "Full-scale industrial pneumatic trainer for advanced skill development.",
             specifications: {
