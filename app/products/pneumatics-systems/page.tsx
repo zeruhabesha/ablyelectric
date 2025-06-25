@@ -24,7 +24,7 @@ export default function PneumaticsSystemsPage() {
             id: 1,
             name: "Double Acting Pneumatic Cylinder",
             category: "Cylinders",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Fluid Systems/pneumatic systems/double.jpg?height=300&width=400",
             rating: 4.8,
             description: "Durable double acting cylinders for precise linear motion in automation.",
             specifications: {
@@ -61,7 +61,7 @@ export default function PneumaticsSystemsPage() {
             id: 2,
             name: "Solenoid Valve 5/2 Way",
             category: "Valves",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Fluid Systems/pneumatic systems/soleenoid.webp?height=300&width=400",
             rating: 4.7,
             description: "High-performance solenoid valves for controlling pneumatic actuators.",
             specifications: {
@@ -98,7 +98,7 @@ export default function PneumaticsSystemsPage() {
             id: 3,
             name: "Air Preparation Unit (FRL)",
             category: "Air Preparation",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Fluid Systems/pneumatic systems/air.jpeg?height=300&width=400",
             rating: 4.9,
             description: "Filter, regulator, and lubricator units for clean and controlled air supply.",
             specifications: {
@@ -135,7 +135,7 @@ export default function PneumaticsSystemsPage() {
             id: 4,
             name: "Pneumatic Tubing & Fittings",
             category: "Accessories",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Fluid Systems/pneumatic systems/fittings.jpg?height=300&width=400",
             rating: 4.6,
             description: "Flexible tubing and leak-proof fittings for all pneumatic connections.",
             specifications: {

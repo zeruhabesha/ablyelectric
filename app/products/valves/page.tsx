@@ -24,7 +24,7 @@ export default function ControlValvesPage() {
             id: 1,
             name: "Electric Control Valve",
             category: "Electric",
-            image: "/electric-valve.jpg",
+            image: "/products/Fluid Systems/control valves/electric.jpg?height=300&width=400",
             rating: 4.8,
             description: "Precision electric control valve for automated flow regulation.",
             specifications: {
@@ -61,7 +61,7 @@ export default function ControlValvesPage() {
             id: 2,
             name: "Pneumatic Control Valve",
             category: "Pneumatic",
-            image: "/pneumatic-valve.jpg",
+                image: "/products/Fluid Systems/control valves/pneumatic.jpg?height=300&width=400",
             rating: 4.7,
             description: "Reliable pneumatic control valve for precise air and fluid regulation.",
             specifications: {
@@ -98,7 +98,7 @@ export default function ControlValvesPage() {
             id: 3,
             name: "Motorized Ball Valve",
             category: "Electric",
-            image: "/motorized-ball-valve.jpg",
+            image: "/products/Fluid Systems/control valves/motor.png?height=300&width=400",
             rating: 4.9,
             description: "Durable motorized ball valve for on/off and modulating control.",
             specifications: {
@@ -135,7 +135,7 @@ export default function ControlValvesPage() {
             id: 4,
             name: "Pressure Reducing Valve",
             category: "Mechanical",
-            image: "/pressure-reducing-valve.jpg",
+            image: "/products/Fluid Systems/control valves/pressure.jpg?height=300&width=400",
             rating: 4.6,
             description: "Mechanical valve for stable downstream pressure control.",
             specifications: {
