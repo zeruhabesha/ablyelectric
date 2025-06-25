@@ -28,6 +28,8 @@ export default function ContactPage() {
       subtitle: "Immediate assistance available",
       details: [
         { label: "Sales & Inquiries", value: "+251 911 464023", type: "primary" },
+        { label: "Sales & Support", value: "+251 912 286121", type: "primary" },
+        { label: "Sales & Support", value: "+251 969 613131", type: "primary" },
         { label: "Technical Support", value: "+251 911 464023", type: "secondary" },
         { label: "Emergency Hotline", value: "+251 911 464023", type: "emergency" },
       ],
@@ -46,13 +48,13 @@ export default function ContactPage() {
     },
     {
       icon: <MapPin className="h-7 w-7 text-red-600" />,
-      title: "Visit Our Office",
+      title: "📍 Visit Our Office",
       subtitle: "Meet our team in person",
       details: [
         {
           label: "Head Office",
           value:
-            "Around Semien Hotel,\nDarule Tower, 8th Floor, Office No. 806\nAddis Ababa, Ethiopia",
+            "Conveniently located near Semien Hotel, in Darule Tower—8th Floor, Office No. 806, Addis Ababa, Ethiopia. Visit us for expert service and seamless accessibility.",
           type: "address",
         },
       ],
@@ -92,13 +94,28 @@ export default function ContactPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-black to-red-900 text-white py-20 lg:py-28 shadow-lg">
-        <div className="container mx-auto px-4">
+      <section className="relative bg-gradient-to-r from-black to-red-900 text-white py-20 lg:py-28 shadow-lg overflow-hidden">
+        {/* Animated SVG or gradient background */}
+        <div className="absolute inset-0 opacity-20 animate-pulse pointer-events-none select-none">
+          <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <radialGradient id="hero-gradient" cx="50%" cy="50%" r="80%">
+                <stop offset="0%" stopColor="#ef4444" stopOpacity="0.3" />
+                <stop offset="100%" stopColor="#000" stopOpacity="0.1" />
+              </radialGradient>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#hero-gradient)" />
+            <circle cx="80%" cy="20%" r="120" fill="#ef4444" fillOpacity="0.12" />
+            <circle cx="20%" cy="80%" r="80" fill="#fff" fillOpacity="0.06" />
+          </svg>
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl lg:text-7xl font-extrabold mb-6 tracking-tight drop-shadow-lg">
+            <h1 className="text-5xl lg:text-7xl font-extrabold mb-6 tracking-tight drop-shadow-2xl text-white relative">
               Contact Us
+              <span className="block w-24 h-1 bg-gradient-to-r from-red-500 to-red-700 rounded-full mx-auto mt-4 mb-2 animate-pulse" />
             </h1>
-            <p className="text-2xl lg:text-3xl text-gray-200 mb-10 font-light">
+            <p className="text-2xl lg:text-3xl text-gray-200 mb-10 font-light drop-shadow-lg">
               Reach out to our expert team for support, sales, or any questions
               about our products and services.
             </p>
@@ -157,89 +174,58 @@ export default function ContactPage() {
               <div>
               <h4 className="text-2xl font-bold mb-6">Quick Contact Options</h4>
               <div className="space-y-4">
-              <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
-              <Link
-              href="tel:+251911464023"
-              className="flex items-center w-full"
-              >
-              <Phone className="mr-3 h-5 w-5" />
-              Call: +251 911 464023
-              </Link>
-              </Button>
-              <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
-              <Link
-              href="https://wa.me/251911464023"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center w-full"
-              >
-              <MessageCircle className="mr-3 h-5 w-5" />
-              WhatsApp Support
-              </Link>
-              </Button>
-              <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
-              <Link
-              href="mailto:info@ablyelectric.com"
-              className="flex items-center w-full"
-              >
-              <Mail className="mr-3 h-5 w-5" />
-              Email: info@ablyelectric.com
-              </Link>
-              </Button>
-               <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
-              <Link
-              href="https://t.me/yourtelegramprofile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center w-full"
-              >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="mr-3 h-5 w-5"
-              >
-                <path d="M2.39 3.35C1.07 4.24.21 5.78.21 7.43c0 3.89 2.83 6.19 2.83 6.19s1.15 4.77 1.36 5.61c.17.68.83.84 1.3.37l3.2-2.41 6.29 4.74c.83.62 1.93.39 2.25-.58l3.54-12.09c.2-.69-.14-1.35-.83-1.54L2.39 3.35zM17.56 6.53l-7.8 9.33c-.27.32-.64.48-1.01.48-.37 0-.73-.16-1-.48l-2.24-2.7.78-5.15c.07-.47.38-.83.85-.91.47-.08.93.18 1.01.64l1.33 8.85 3.62-2.73c.4-.3.96-.22 1.27.18l5.01 6.02c.22.27.54.41.85.41.31 0 .62-.14.84-.41.47-.56.05-1.5-.62-2.21l-10.1-12.14c-.42-.5-.92-.78-1.48-.78-.08 0-.17 0-.25.01z" />
-              </svg>
-              Telegram Channel
-              </Link>
-              </Button>
-              <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
-              <Link
-              href="https://linkedin.com/yourlinkedinprofile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center w-full"
-              >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="mr-3 h-5 w-5"
-              >
-                <path d="M20.447 2.062h-3.167c-2.13 0-3.583 1.43-3.583 3.426v3.844h-3.166v-3.844c0-2.002-1.472-3.426-3.583-3.426h-3.167v19.876h3.167v-8.087c0-2.009 1.813-3.647 3.426-3.647 1.614 0 3.166 1.638 3.166 3.647v8.087h3.167v-4.141c0-2.576 2.352-4.667 4.353-4.667 2.002 0 3.583 2.091 3.583 4.667v4.141h3.166v-10.229c0-2.002-1.472-3.426-3.583-3.426z" />
-              </svg>
-              LinkedIn Profile
-              </Link>
-              </Button>
-               <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
-              <Link
-              href="https://facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center w-full"
-              >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="mr-3 h-5 w-5"
-              >
-                <path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.663 9.151 8.437 9.879v-7.028h-2.54v-2.851h2.54V9.584c0-2.542 1.564-3.945 3.875-3.945 1.094 0 2.238.191 2.551.274v2.966h-1.734c-1.226 0-1.475.613-1.475 1.512v1.925h2.94l-.475 3.028h-2.465v7.028A10.019 10.019 0 0022 12z" clipRule="evenodd" />
-              </svg>
-              Facebook Profile
-              </Link>
-              </Button>
+                <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+                  <Link href="tel:+251911464023" className="flex items-center w-full">
+                    <Phone className="mr-3 h-5 w-5" />
+                    Call: +251 911 464023
+                  </Link>
+                </Button>
+                <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+                  <Link href="tel:+251912286121" className="flex items-center w-full">
+                    <Phone className="mr-3 h-5 w-5" />
+                    Call: +251 912 286121
+                  </Link>
+                </Button>
+                <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+                  <Link href="tel:+251969613131" className="flex items-center w-full">
+                    <Phone className="mr-3 h-5 w-5" />
+                    Call: +251 969 613131
+                  </Link>
+                </Button>
+                <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+                  <Link href="https://wa.me/251969613131" target="_blank" rel="noopener noreferrer" className="flex items-center w-full">
+                    <MessageCircle className="mr-3 h-5 w-5" />
+                    WhatsApp: +251 969 613131
+                  </Link>
+                </Button>
+                <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+                  <Link href="https://t.me/yourtelegramprofile" target="_blank" rel="noopener noreferrer" className="flex items-center w-full">
+                    <MessageCircle className="mr-3 h-5 w-5" />
+                    Telegram: +251 969 613131
+                  </Link>
+                </Button>
+                {/* Facebook Button */}
+                <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+                  <Link href="https://facebook.com/yourfacebookprofile" target="_blank" rel="noopener noreferrer" className="flex items-center w-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="mr-3 h-5 w-5">
+                      <path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.663 9.151 8.437 9.879v-7.028h-2.54v-2.851h2.54V9.584c0-2.542 1.564-3.945 3.875-3.945 1.094 0 2.238.191 2.551.274v2.966h-1.734c-1.226 0-1.475.613-1.475 1.512v1.925h2.94l-.475 3.028h-2.465v7.028A10.019 10.019 0 0022 12z" clipRule="evenodd" />
+                    </svg>
+                    Facebook
+                  </Link>
+                </Button>
+                {/* LinkedIn Button */}
+                <Button className="w-full bg-white/10 hover:bg-white/20 text-white justify-start text-lg py-3 font-semibold shadow-md rounded-md">
+                  <Link href="https://linkedin.com/yourlinkedinprofile" target="_blank" rel="noopener noreferrer" className="flex items-center w-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="mr-3 h-5 w-5">
+                      <path d="M20.447 2.062h-3.167c-2.13 0-3.583 1.43-3.583 3.426v3.844h-3.166v-3.844c0-2.002-1.472-3.426-3.583-3.426h-3.167v19.876h3.167v-8.087c0-2.009 1.813-3.647 3.426-3.647 1.614 0 3.166 1.638 3.166 3.647v8.087h3.167v-4.141c0-2.576 2.352-4.667 4.353-4.667 2.002 0 3.583 2.091 3.583 4.667v4.141h3.166v-10.229c0-2.002-1.472-3.426-3.583-3.426z" />
+                    </svg>
+                    LinkedIn
+                  </Link>
+                </Button>
+                <div className="flex items-center space-x-2 mt-1">
+                  <span className="inline-block bg-blue-500 text-white rounded px-2 py-1 text-xs font-semibold">Telegram Channel</span>
+                  <span className="text-xs text-gray-100">Ably Electric - You're Backup for Uninterrupted Life</span>
+                </div>
               </div>
               </div>
             </CardContent>
@@ -276,7 +262,7 @@ export default function ContactPage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white text-white hover:text-red-100 flex items-center"
+                  className="border-white text-black hover:text-red-100 flex items-center"
                 >
                   <Link
                     href="https://wa.me/251911464023"
@@ -316,8 +302,7 @@ export default function ContactPage() {
               Visit Our Office
             </h2>
             <p className="text-xl text-gray-600">
-              Located in Around Semien Hotel, Darule Tower, 8th Floor, Office
-              No. 806, Addis Ababa, Ethiopia
+            Conveniently located near Semien Hotel, in Darule Tower—8th Floor, Office No. 806, Addis Ababa, Ethiopia. Visit us for expert service and seamless accessibility.
             </p>
           </div>
           <div className="max-w-4xl mx-auto">
@@ -341,7 +326,7 @@ export default function ContactPage() {
                       ABLY ELECTRIC Head Office
                     </h3>
                     <p className="text-gray-600 text-sm">
-                      Around Semien Hotel, Darule Tower, 8th Floor, Office No. 806
+                    Conveniently located near Semien Hotel, in Darule Tower—8th Floor, Office No. 806, Addis Ababa, Ethiopia
                     </p>
                     <p className="text-gray-600 text-sm mb-2">
                       Addis Ababa, Ethiopia

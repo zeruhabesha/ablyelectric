@@ -70,7 +70,7 @@ export default function About() {
           <span className="text-red-600 font-semibold uppercase tracking-wider">About Us</span>
           <h2 className="text-4xl font-bold text-gray-900 mb-4 mt-2">Establish Authority & Trust</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            With over 15 years of experience in the electrical and mechanical industry, ABLY ELECTRIC has established
+            With over 12 years of experience in the electrical and mechanical industry, ABLY ELECTRIC has established
             itself as a trusted partner for energy and technology solutions.
           </p>
         </div>
@@ -99,7 +99,7 @@ export default function About() {
                 <div className="text-sm text-gray-600">Projects Completed</div>
               </div>
               <div className="text-center p-6 bg-white rounded-lg shadow-md transform transition-transform hover:scale-105 hover:shadow-lg">
-                <div className="text-3xl font-bold text-red-600 mb-2">15+</div>
+                <div className="text-3xl font-bold text-red-600 mb-2">12+</div>
                 <div className="text-sm text-gray-600">Years Experience</div>
               </div>
               <div className="text-center p-6 bg-white rounded-lg shadow-md transform transition-transform hover:scale-105 hover:shadow-lg">

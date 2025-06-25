@@ -30,17 +30,23 @@ export default function Contact() {
                 <div className="space-y-3">
                   <div>
                     <div className="font-semibold text-gray-900">Sales & Inquiries</div>
-                    <div className="text-blue-600 font-medium">+251 911 464023</div>
-                  </div>
-                  <div>
-                    <div className="font-semibold text-gray-900">Technical Support</div>
-                    <div className="text-blue-600 font-medium">+251 911 464023</div>
+                    <div className="text-blue-600 font-medium">+251 911 464023 <span className='mx-2 text-gray-400'>|</span> +251 912 286121 <span className='mx-2 text-gray-400'>|</span> +251 969 613131</div>
                   </div>
                   <div className="bg-green-50 p-3 rounded-lg">
                     <div className="flex items-center space-x-2 text-green-700">
                       <MessageCircle className="h-4 w-4" />
                       <span className="text-sm font-medium">Live Call Support Available</span>
                     </div>
+                  </div>
+                  {/* Quick Contact Options */}
+                  <div className="flex items-center space-x-2 mt-2">
+                    <span className="font-medium">Quick Contact:</span>
+                    <span className="text-blue-600 font-medium">+251 969 613131</span>
+                    <span className="text-xs text-gray-500">(Telegram & WhatsApp)</span>
+                  </div>
+                  <div className="flex items-center space-x-2 mt-1">
+                    <span className="inline-block bg-blue-500 text-white rounded px-2 py-1 text-xs font-semibold">Telegram Channel</span>
+                    <span className="text-xs text-gray-700">Ably Electric - You're Backup for Uninterrupted Life</span>
                   </div>
                 </div>
               </CardContent>
@@ -75,7 +81,7 @@ export default function Contact() {
               <CardHeader>
                 <CardTitle className="flex items-center space-x-3">
                   <MapPin className="h-6 w-6 text-purple-600" />
-                  <span>Visit Our Office</span>
+                  <span>📍 Visit Our Office</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -83,11 +89,7 @@ export default function Contact() {
                   <div>
                     <div className="font-semibold text-gray-900">Head Office</div>
                     <div className="text-gray-600">
-                      Around Semien Hotel
-                      <br />
-                       Darule Tower, 8th Floor, Office No. 806
-                      <br />
-                       Addis Ababa, Ethiopia
+                      Conveniently located near Semien Hotel, in Darule Tower—8th Floor, Office No. 806, Addis Ababa, Ethiopia. Visit us for expert service and seamless accessibility.
                     </div>
                   </div>
                   <div className="flex items-center space-x-2 text-purple-600">

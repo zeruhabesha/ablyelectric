@@ -24,7 +24,7 @@ export default function ElectricalTrainersPage() {
             id: 1,
             name: "Basic Electrical Trainer Kit",
             category: "Fundamentals",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Industrial Training/electrical trainers/basic.jpeg?height=300&width=400",
             rating: 4.8,
             description: "Comprehensive trainer for learning basic electrical circuits and wiring.",
             specifications: {
@@ -61,14 +61,14 @@ export default function ElectricalTrainersPage() {
             id: 2,
             name: "Electrical Machines Trainer",
             category: "Machines",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Industrial Training/electrical trainers/machines.jpeg?height=300&width=400",
             rating: 4.7,
             description: "Trainer for studying DC and AC machines, transformers, and related experiments.",
             specifications: {
                 modules: "DC Motor, AC Motor, Transformer",
                 voltage: "220V AC, 12V DC",
                 current: "0-5A",
-                experiments: "15+",
+                experiments: "12+",
                 dimensions: "600 x 400 x 200 mm",
                 warranty: "2 years",
             },
@@ -98,7 +98,7 @@ export default function ElectricalTrainersPage() {
             id: 3,
             name: "Power Electronics Trainer",
             category: "Power Electronics",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Industrial Training/electrical trainers/power.jpeg?height=300&width=400",
             rating: 4.6,
             description: "Trainer for SCR, TRIAC, MOSFET, and power electronics circuit experiments.",
             specifications: {
@@ -135,7 +135,7 @@ export default function ElectricalTrainersPage() {
             id: 4,
             name: "Electrical Wiring Practice Board",
             category: "Wiring",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/products/Industrial Training/electrical trainers/wiring.jpeg?height=300&width=400",
             rating: 4.9,
             description: "Practice board for learning residential and industrial wiring techniques.",
             specifications: {

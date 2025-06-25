@@ -268,7 +268,7 @@ export default function InstallationServicesPage() {
               </Card>
               <Card className="text-center p-6 border-red-200">
                 <CardContent className="p-0">
-                  <div className="text-3xl font-bold text-red-600 mb-2">15+</div>
+                  <div className="text-3xl font-bold text-red-600 mb-2">12+</div>
                   <div className="text-sm text-gray-600">Years Experience</div>
                 </CardContent>
               </Card>

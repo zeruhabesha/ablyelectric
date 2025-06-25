@@ -30,33 +30,45 @@ export default function AboutPage() {
 
   const milestones = [
     {
-      year: "2007",
-      title: "Company Founded",
-      description: "Started as a small electrical components distributor with a vision to transform the industry",
+      year: "2015",
+      title: "Company Launch & Core Service Setup",
+      description:
+        "Originally established as a specialist in electrical and mechanical servicing, power backup solutions, industrial training, and component distribution—driven by a transformative vision for the industry.",
       icon: <Building className="h-6 w-6" />,
     },
     {
-      year: "2012",
+      year: "2015",
       title: "First Major Contract",
-      description: "Secured contract with leading industrial manufacturer, establishing our reputation",
+      description:
+        "First contract awarded for power backup supply & installation and manufacturing for laboratory training equipment in electrical, electronics, and computer engineering—solidifying industry expertise and trust.",
       icon: <Award className="h-6 w-6" />,
     },
     {
-      year: "2015",
-      title: "EV Division Launch",
-      description: "Expanded into electric vehicle charging solutions, pioneering sustainable energy",
-      icon: <Zap className="h-6 w-6" />,
+      year: "2016/17",
+      title: "Process & Operations Upgrade",
+      description:
+        "Integrated job tracking, maintenance scheduling, and CRM - Launching an ambitious initiative with a tagline 'Your Backup for Uninterrupted Life.' ensuring seamless and reliable energy solutions (UPS & Inverter) for businesses and households.",
+      icon: <Award className="h-6 w-6" />,
     },
     {
       year: "2018",
-      title: "Training Center",
-      description: "Opened state-of-the-art industrial training facility for skill development",
-      icon: <Users className="h-6 w-6" />,
+      title: "Business Competency Certificate",
+      description:
+        "Received the Ethiopian Energy Authority's Business Competency Certificate for excellence in professional ethics in electrical and energy sectors.",
+      icon: <Shield className="h-6 w-6" />,
     },
     {
-      year: "2024",
-      title: "500+ Projects",
-      description: "Completed over 500 successful installations across Ethiopia, serving diverse industries",
+      year: "2019/2020",
+      title: "Digital Presence & Lead Capture",
+      description:
+        "Launched new website showcasing service categories, tech products, and certification. Attracts, collects, and converts potential customers into leads.",
+      icon: <Globe className="h-6 w-6" />,
+    },
+    {
+      year: "2024/25",
+      title: "Impact & Future Growth into New Markets",
+      description:
+        "We stopped looking for markets—markets started looking for us. Achieved 150% growth in service inquiries and product quotes. Introduced new service lines: solar + battery hybrid, EV Charger solutions. Built internship program for technicians and engineers.",
       icon: <TrendingUp className="h-6 w-6" />,
     },
   ]
@@ -76,7 +88,7 @@ export default function AboutPage() {
     {
       name: "Fatuma Ali",
       position: "Technical Director",
-      experience: "15+ years",
+      experience: "12+ years",
       specialization: "Industrial Automation & Process Control",
       image: "/placeholder.svg?height=300&width=300",
       bio: "Expert in industrial automation with a track record of implementing cutting-edge control systems across various industries.",
@@ -148,7 +160,7 @@ export default function AboutPage() {
 
   const stats = [
     { number: "500+", label: "Projects Completed", icon: <TrendingUp className="h-6 w-6" /> },
-    { number: "15+", label: "Years Experience", icon: <Calendar className="h-6 w-6" /> },
+    { number: "12+", label: "Years Experience", icon: <Calendar className="h-6 w-6" /> },
     { number: "100+", label: "Happy Clients", icon: <Users className="h-6 w-6" /> },
     { number: "24/7", label: "Support Available", icon: <Clock className="h-6 w-6" /> },
     { number: "50+", label: "Team Members", icon: <Users className="h-6 w-6" /> },
@@ -216,7 +228,7 @@ export default function AboutPage() {
             </div>
             <h1 className="text-4xl lg:text-6xl font-bold mb-6">
               Powering Innovation for{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">15+ Years</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">12+ Years</span>
             </h1>
             <p className="text-xl lg:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
               From a small electrical components distributor to Ethiopia's trusted partner for comprehensive energy and
@@ -288,7 +300,7 @@ export default function AboutPage() {
                       <div className="w-20 h-1 bg-red-600 mb-6 rounded-full"></div>
                       <div className="space-y-4 text-gray-700 leading-relaxed">
                         <p>
-                          Founded in 2007, ABLY ELECTRIC began as a vision to bridge the gap between cutting-edge
+                          Founded in 2015, ABLY ELECTRIC began as a vision to bridge the gap between cutting-edge
                           technology and practical industrial applications. What started as a small electrical
                           components distributor has evolved into a comprehensive solution provider for homes,
                           businesses, and industries across Ethiopia.
@@ -315,7 +327,7 @@ export default function AboutPage() {
                       className="rounded-2xl shadow-2xl"
                     />
                     <div className="absolute -bottom-6 -right-6 bg-red-600 text-white p-6 rounded-xl shadow-lg">
-                      <div className="text-2xl font-bold">15+</div>
+                      <div className="text-2xl font-bold">12+</div>
                       <div className="text-sm">Years of Excellence</div>
                     </div>
                   </div>

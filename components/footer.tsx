@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Phone, Mail, MapPin, ArrowRight, ArrowUp } from "lucide-react"
+import { FaTelegramPlane, FaWhatsapp } from "react-icons/fa"
 
 export default function Footer() {
   const [showScrollTop, setShowScrollTop] = useState(false)
@@ -22,7 +23,6 @@ export default function Footer() {
   }
 
   const productCategories = [
-    "EV Chargers",
     "UPS Systems",
     "Inverters",
     "Generators",
@@ -30,6 +30,7 @@ export default function Footer() {
     "Process Control",
     "Electrical Components",
     "Pneumatics",
+    "EV Chargers",
   ]
 
   const services = [
@@ -80,12 +81,15 @@ export default function Footer() {
 
             {/* Contact Info */}
             <div className="space-y-3">
+              {/* Inline Sales & Support Numbers */}
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-red-400" />
-                <div>
-                  <div className="font-medium">+251 911 464023</div>
-                  <div className="text-gray-400 text-sm">Sales & Support</div>
+                <div className="font-medium">
+                  +251 911 464023 <span className="mx-2 text-gray-400">|</span>
+                  +251 912 286121 <span className="mx-2 text-gray-400">|</span>
+                  +251 969 613131
                 </div>
+                <div className="text-gray-400 text-sm ml-2">Sales & Support</div>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-red-400" />
@@ -99,6 +103,21 @@ export default function Footer() {
                 <div>
                   <div className="font-medium">Addis Ababa, Ethiopia</div>
                   <div className="text-gray-400 text-sm">Head Office Location</div>
+                </div>
+              </div>
+              {/* Quick Contact Options */}
+              <div className="flex items-center space-x-3">
+                <FaTelegramPlane className="h-5 w-5 text-blue-400" />
+                <FaWhatsapp className="h-5 w-5 text-green-500" />
+                <div>
+                  <div className="font-medium">+251 969 613131</div>
+                  <div className="text-gray-400 text-sm">Quick Contact (Telegram & WhatsApp)</div>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3">
+                <span className="inline-block bg-blue-500 text-white rounded px-2 py-1 text-xs font-semibold">Telegram Channel</span>
+                <div>
+                  <div className="font-medium">Ably Electric - You're Backup for Uninterrupted Life</div>
                 </div>
               </div>
             </div>

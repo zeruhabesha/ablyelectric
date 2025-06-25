@@ -24,7 +24,7 @@ export default function ProcessControlPage() {
             id: 1,
             name: "Programmable Logic Controller (PLC)",
             category: "Controllers",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Industrial Training/process control/logic.webp?height=300&width=400",
             rating: 4.8,
             description: "Robust PLCs for reliable automation and process control.",
             specifications: {
@@ -61,7 +61,7 @@ export default function ProcessControlPage() {
             id: 2,
             name: "Human Machine Interface (HMI)",
             category: "Interfaces",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Industrial Training/process control/human.webp?height=300&width=400",
             rating: 4.7,
             description: "Touchscreen HMIs for intuitive process visualization and control.",
             specifications: {
@@ -98,7 +98,7 @@ export default function ProcessControlPage() {
             id: 3,
             name: "SCADA Software Suite",
             category: "Software",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Industrial Training/process control/scada.webp?height=300&width=400",
             rating: 4.9,
             description: "Comprehensive SCADA for centralized monitoring and control.",
             specifications: {
@@ -135,7 +135,7 @@ export default function ProcessControlPage() {
             id: 4,
             name: "Industrial Sensors",
             category: "Sensors",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Industrial Training/process control/industrial.webp?height=300&width=400",
             rating: 4.5,
             description: "Precision sensors for accurate process measurement.",
             specifications: {
