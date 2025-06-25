@@ -24,7 +24,7 @@ export default function HydraulicsTrainerPage() {
             id: 1,
             name: "Basic Hydraulics Trainer Kit",
             category: "Trainer Kits",
-            image: "/hydraulics-trainer-basic.jpg",
+            image: "/products/Fluid Systems/hydraulics trainer/basic.webp?height=300&width=400",
             rating: 4.8,
             description: "Comprehensive kit for learning the fundamentals of hydraulic systems.",
             specifications: {
@@ -61,7 +61,7 @@ export default function HydraulicsTrainerPage() {
             id: 2,
             name: "Advanced Electro-Hydraulics Trainer",
             category: "Trainer Kits",
-            image: "/hydraulics-trainer-advanced.jpg",
+            image: "/products/Fluid Systems/hydraulics trainer/advanced.jpg?height=300&width=400",
             rating: 4.9,
             description: "Trainer for advanced study of electro-hydraulic circuits and automation.",
             specifications: {
@@ -98,7 +98,7 @@ export default function HydraulicsTrainerPage() {
             id: 3,
             name: "Hydraulic Cutaway Models",
             category: "Cutaway Models",
-            image: "/hydraulics-cutaway.jpg",
+            image: "/products/Fluid Systems/hydraulics trainer/cutaway.jpeg?height=300&width=400",
             rating: 4.7,
             description: "Sectioned models of hydraulic components for visual learning.",
             specifications: {
@@ -134,7 +134,7 @@ export default function HydraulicsTrainerPage() {
             id: 4,
             name: "Hydraulic Maintenance Trainer",
             category: "Maintenance",
-            image: "/hydraulics-maintenance.jpg",
+            image: "/products/Fluid Systems/hydraulics trainer/trainer.jpg?height=300&width=400",
             rating: 4.6,
             description: "Trainer for hands-on practice in hydraulic system maintenance and troubleshooting.",
             specifications: {

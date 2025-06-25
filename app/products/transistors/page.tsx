@@ -24,7 +24,7 @@ export default function TransistorsICsPage() {
             id: 1,
             name: "NPN Power Transistor",
             category: "Transistors",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Electrical Components/transistors & Ics/npn.jpg?height=300&width=400",
             rating: 4.8,
             description: "High-performance NPN power transistor for switching and amplification.",
             specifications: {
@@ -62,7 +62,7 @@ export default function TransistorsICsPage() {
             id: 2,
             name: "P-Channel MOSFET",
             category: "Transistors",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Electrical Components/transistors & Ics/p-channel.webp?height=300&width=400",
             rating: 4.7,
             description: "Low RDS(on) P-Channel MOSFET for efficient load switching.",
             specifications: {
@@ -100,7 +100,7 @@ export default function TransistorsICsPage() {
             id: 3,
             name: "Quad Op-Amp IC (LM324)",
             category: "ICs",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Electrical Components/transistors & Ics/quad.webp?height=300&width=400",
             rating: 4.9,
             description: "Versatile quad operational amplifier IC for analog signal processing.",
             specifications: {
@@ -138,7 +138,7 @@ export default function TransistorsICsPage() {
             id: 4,
             name: "555 Timer IC",
             category: "ICs",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Electrical Components/transistors & Ics/timer.jpeg?height=300&width=400",
             rating: 4.6,
             description: "Classic 555 timer IC for precision timing and oscillator circuits.",
             specifications: {

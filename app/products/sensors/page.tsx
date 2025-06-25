@@ -24,7 +24,7 @@ export default function SensorsDisplaysPage() {
             id: 1,
             name: "Temperature Sensor PT100",
             category: "Sensors",
-            image: "/sensor-pt100.jpg",
+            image: "/products/Electrical Components/sensors & displays/pt.jpg?height=300&width=400",
             rating: 4.8,
             description: "Accurate PT100 temperature sensor for industrial and HVAC applications.",
             specifications: {
@@ -61,7 +61,7 @@ export default function SensorsDisplaysPage() {
             id: 2,
             name: "Digital Humidity Sensor",
             category: "Sensors",
-            image: "/humidity-sensor.jpg",
+            image: "/products/Electrical Components/sensors & displays/td.webp?height=300&width=400",
             rating: 4.7,
             description: "Digital humidity sensor for precise environmental monitoring.",
             specifications: {
@@ -98,7 +98,7 @@ export default function SensorsDisplaysPage() {
             id: 3,
             name: "7-Segment Digital Display",
             category: "Displays",
-            image: "/7segment-display.jpg",
+            image: "/products/Electrical Components/sensors & displays/segment.webp?height=300&width=400",
             rating: 4.9,
             description: "Bright 7-segment digital display for numeric data visualization.",
             specifications: {
@@ -135,7 +135,7 @@ export default function SensorsDisplaysPage() {
             id: 4,
             name: "LCD Graphic Display 128x64",
             category: "Displays",
-            image: "/lcd-128x64.jpg",
+            image: "/products/Electrical Components/sensors & displays/graphic.jpg?height=300&width=400",
             rating: 4.6,
             description: "Versatile 128x64 pixel LCD for graphical and text display.",
             specifications: {

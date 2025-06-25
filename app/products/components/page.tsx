@@ -24,7 +24,7 @@ export default function ElectricalComponentsPage() {
             id: 1,
             name: "Circuit Breaker 63A",
             category: "Protection",
-            image: "/circuit-breaker-63a.jpg",
+            image: "/products/Industrial Training/electronic components/circuit.jpeg?height=300&width=400",
             rating: 4.8,
             description: "High-quality 63A circuit breaker for residential and commercial protection.",
             specifications: {
@@ -61,7 +61,7 @@ export default function ElectricalComponentsPage() {
             id: 2,
             name: "Contactor 40A",
             category: "Control",
-            image: "/contactor-40a.jpg",
+            image: "/products/Industrial Training/electronic components/contactor.webp?height=300&width=400",
             rating: 4.7,
             description: "Durable 40A contactor for motor and lighting control applications.",
             specifications: {
@@ -98,7 +98,7 @@ export default function ElectricalComponentsPage() {
             id: 3,
             name: "Digital Timer Switch",
             category: "Automation",
-            image: "/digital-timer-switch.jpg",
+            image: "/products/Industrial Training/electronic components/switch.jpg?height=300&width=400",
             rating: 4.9,
             description: "Programmable digital timer switch for automated control of electrical loads.",
             specifications: {
@@ -135,7 +135,7 @@ export default function ElectricalComponentsPage() {
             id: 4,
             name: "Power Distribution Board",
             category: "Distribution",
-            image: "/distribution-board.jpg",
+            image: "/products/Industrial Training/electronic components/power.jpg?height=300&width=400",
             rating: 4.6,
             description: "Robust power distribution board for safe and organized wiring.",
             specifications: {

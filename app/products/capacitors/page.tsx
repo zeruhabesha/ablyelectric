@@ -24,7 +24,7 @@ export default function CapacitorsPage() {
             id: 1,
             name: "Electrolytic Capacitor 100μF 50V",
             category: "Capacitors",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Electrical Components/capacitors & diodes/electrolytic.webp?height=300&width=400",
             rating: 4.7,
             description: "High-quality electrolytic capacitor for power supply filtering and decoupling applications.",
             specifications: {
@@ -63,7 +63,7 @@ export default function CapacitorsPage() {
             id: 2,
             name: "Ceramic Capacitor 0.1μF 50V",
             category: "Capacitors",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Electrical Components/capacitors & diodes/ceramic.webp?height=300&width=400",
             rating: 4.6,
             description: "General purpose ceramic capacitor for signal coupling and bypass applications.",
             specifications: {
@@ -102,7 +102,7 @@ export default function CapacitorsPage() {
             id: 3,
             name: "Schottky Diode 1N5819",
             category: "Diodes",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Electrical Components/capacitors & diodes/diode.jpeg?height=300&width=400",
             rating: 4.8,
             description: "Fast recovery Schottky diode for low voltage, high frequency applications.",
             specifications: {
@@ -141,7 +141,7 @@ export default function CapacitorsPage() {
             id: 4,
             name: "Rectifier Diode 1N4007",
             category: "Diodes",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Electrical Components/capacitors & diodes/rectifier.jpg?height=300&width=400",
             rating: 4.5,
             description: "Standard rectifier diode for general purpose AC to DC conversion.",
             specifications: {

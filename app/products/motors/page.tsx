@@ -24,7 +24,7 @@ export default function MotorsRelaysPage() {
             id: 1,
             name: "Three-Phase Induction Motor",
             category: "Motors",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Electrical Components/motors & relays/three.jpg?height=300&width=400",
             rating: 4.8,
             description: "High-efficiency three-phase induction motors for industrial applications.",
             specifications: {
@@ -61,7 +61,7 @@ export default function MotorsRelaysPage() {
             id: 2,
             name: "Single-Phase Capacitor Start Motor",
             category: "Motors",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Electrical Components/motors & relays/single.jpg?height=300&width=400",
             rating: 4.6,
             description: "Reliable single-phase motors for light industrial and commercial use.",
             specifications: {
@@ -98,7 +98,7 @@ export default function MotorsRelaysPage() {
             id: 3,
             name: "Electromechanical Power Relay",
             category: "Relays",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Electrical Components/motors & relays/relay.jpg?height=300&width=400",
             rating: 4.7,
             description: "Versatile power relays for switching high current loads.",
             specifications: {
@@ -135,7 +135,7 @@ export default function MotorsRelaysPage() {
             id: 4,
             name: "Solid State Relay (SSR)",
             category: "Relays",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Electrical Components/motors & relays/state.png?height=300&width=400",
             rating: 4.9,
             description: "Silent, fast-switching solid state relays for sensitive applications.",
             specifications: {

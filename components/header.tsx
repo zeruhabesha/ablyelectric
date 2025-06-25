@@ -149,12 +149,7 @@ export default function Header() {
                       <div>
                         <h3 className="font-semibold text-black mb-4">Power & Backup</h3>
                         <div className="space-y-2">
-                          <Link
-                            href="/products/ev-chargers"
-                            className="block px-3 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 rounded"
-                          >
-                            EV Chargers
-                          </Link>
+                          
                           <Link
                             href="/products/ups"
                             className="block px-3 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 rounded"
@@ -172,6 +167,12 @@ export default function Header() {
                             className="block px-3 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 rounded"
                           >
                             Generators
+                          </Link>
+                          <Link
+                            href="/products/ev-chargers"
+                            className="block px-3 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 rounded"
+                          >
+                            EV Chargers
                           </Link>
                         </div>
                       </div>

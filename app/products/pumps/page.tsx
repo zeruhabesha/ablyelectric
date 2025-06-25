@@ -24,7 +24,7 @@ export default function IndustrialPumpsPage() {
             id: 1,
             name: "Centrifugal Process Pump",
             category: "Centrifugal",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Fluid Systems/industrial pumps/centrifugal.jpg?height=300&width=400",
             rating: 4.8,
             description: "High-efficiency centrifugal pump for industrial fluid transfer and process applications.",
             specifications: {
@@ -61,7 +61,7 @@ export default function IndustrialPumpsPage() {
             id: 2,
             name: "Submersible Sewage Pump",
             category: "Submersible",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Fluid Systems/industrial pumps/industrial.jpg?height=300&width=400",
             rating: 4.7,
             description: "Heavy-duty submersible pump for sewage, wastewater, and drainage applications.",
             specifications: {
@@ -98,7 +98,7 @@ export default function IndustrialPumpsPage() {
             id: 3,
             name: "Gear Oil Transfer Pump",
             category: "Gear",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Fluid Systems/industrial pumps/oil.jpg?height=300&width=400",
             rating: 4.6,
             description: "Precision gear pump for oil, viscous liquids, and chemical transfer.",
             specifications: {
@@ -135,7 +135,7 @@ export default function IndustrialPumpsPage() {
             id: 4,
             name: "Vertical Multistage Pump",
             category: "Multistage",
-            image: "/placeholder.svg?height=300&width=400",
+            image: "/products/Fluid Systems/industrial pumps/multistage.jpg?height=300&width=400",
             rating: 4.9,
             description: "High-pressure vertical multistage pump for water supply and boosting.",
             specifications: {
